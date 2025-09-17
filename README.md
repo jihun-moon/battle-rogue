@@ -41,4 +41,4 @@
 </p>
 
 ---
-> ↩️ **[전체 학습 로드맵으로 돌아가기](../../README.md)**
+> ↩️ **[전체 학습 아카이브로 돌아가기](https://github.com/jihun-moon/daegu-univ-cs)**
