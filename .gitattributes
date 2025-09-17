@@ -1,2 +1,31 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Unreal Engine 4/5 .gitignore
+#
+# Original: https://github.com/github/gitignore/blob/main/UnrealEngine.gitignore
+
+# Visual Studio files
+*.pdb
+*.suo
+*.sln
+*.userprefs
+*.usersettings
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Build products
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Script/
+
+# Saved data
+Saved/
+
+# Other
+.vs/
+.vscode/
+.idea/
+*.VC.db
+/Plugins/Marketplace/
+*.swp
