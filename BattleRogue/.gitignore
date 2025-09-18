@@ -1,0 +1,18 @@
+# Unreal Engine
+################
+
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Visual Studio
+###############
+.vs/
+*.VC.db
+*.sln
+*.suo
+*.user
+*.vcxproj.filters
+*.vcxproj.user
