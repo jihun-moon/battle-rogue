@@ -1,59 +1,113 @@
-# 🏆 [프로젝트] 1:1 온라인 대전 격투 게임 'Battle Rogue'
+# Battle Rogue PVP
 
-- **프로젝트 기간:** 8주
-- **팀명:** 전문박사팀
-- **사용 기술:** `Unreal Engine 5`, `Blueprint`, `Dedicated Server`, `Mixamo`
+UE5 기반 1:1 PvP 멀티플레이 격투 게임. 전용 Dedicated Server와 Replication·RPC 설계로 저지연 상태 동기화를 구현했습니다.
 
----
+- Engine: Unreal Engine 5
+- Language: C++ and Blueprint
+- Networking: UE Replication, RPC, Session
 
-## 🌟 주요 성과: 완성도 부문 우수 프로젝트로 선정 (공동 2위)
+## Demo
 
-본 프로젝트는 기말 프로젝트 평가에서 그래픽, 사운드, 상호작용 등 게임의 전반적인 완성도를 종합적으로 평가하는 '완성도 부문'에서 우수 프로젝트(공동 2위)로 선정되며 그 기술적 완성도와 플레이 경험을 공식적으로 인정받았습니다.
+![Anim Montage Process](assets/anim-montage-process.gif)
+![Gameplay Demo](assets/fighting-game-demo.gif)
 
----
+assets 경로가 다르면 링크를 수정하세요.
 
-## 📌 프로젝트 목표
+## Features
 
-언리얼 엔진의 블루프린트와 데디케이티드 서버(Dedicated Server) 아키텍처를 기반으로, 두 명의 플레이어가 IP 주소로 서버에 접속해 실시간으로 1:1 대전을 벌이는 온라인 격투 게임을 개발합니다.
+- 서버 권위(Server-Authoritative) 구조
+- 플레이어 이동·공격 상태 동기화(Replication, RPC)
+- 매치메이킹 → 세션 생성 → 게임 종료 라이프사이클
+- 보간·보정 기반 랙 보정(Lag Compensation) 초안
 
----
+## Tech Stack
 
-## 🛠️ 나의 역할: 핵심 게임플레이 시스템 프로그래머
+- Unreal Engine 5, C++/Blueprint
+- Networking: Replication, Server/Client RPC, Session
+- Infra: 컨테이너 기반 전용 서버 빌드·배포
 
-저는 팀의 **게임플레이 프로그래머**로서, 사용자의 플레이 경험과 직접적으로 연결되는 **캐릭터의 모든 상태와 동작, 그리고 전투 시스템의 핵심 로직을 전담하여 설계 및 구현**했습니다.
+## Getting Started
 
-### 1. 플레이어 상태 머신(State Machine) 아키텍처 설계
-- **기여:** `이동`, `공격`, `피격`, `사망` 등 캐릭터의 모든 행동을 **상태 머신 패턴**으로 추상화하여 설계했습니다. 이를 통해 복잡한 캐릭터 로직의 **결합도(Coupling)는 낮추고 응집도(Cohesion)는 높여**, 기능 추가 및 디버깅이 용이한 안정적인 구조를 구축했습니다.
+1. Requirements
+   - UE 5.x
+   - Visual Studio 2022 또는 clang toolchain
+2. Clone
+   - git clone https://github.com/<your-org>/battle-rogue.git
+3. Open
+   - UE에서 .uproject 열기
+4. Run
+   - 에디터: Play In Editor 또는 Standalone
+   - Dedicated Server: 아래 참조
 
-### 2. 애니메이션 블루프린트 연동 및 최적화
-- **기여:** Mixamo에서 가져온 30여 종의 애니메이션 에셋을 '상태 머신'의 각 상태(State)와 정확히 연동했습니다. `Blend Spaces`를 활용하여 정지-걷기-달리기 상태가 부드럽게 전환되도록 구현했으며, 불필요한 애니메이션 전환을 최소화하여 시스템 리소스 사용을 최적화했습니다.
+## Run Dedicated Server
 
-**[작업 과정: 애니메이션 몽타주]**
-<p align="left">
-  <img src="./assets/anim-montage-process.gif" alt="애니메이션 몽타주 작업 과정" width="700"/>
-  <br/>
-  <i>좌우 펀치 애니메이션을 하나의 몽타주로 결합하고, 노티파이(Notify)를 이용해 타격 판정 시점을 설정하는 과정</i>
-</p>
+Windows 예시
+```
+.\Engine\Binaries\Win64\UnrealEditor.exe Project.uproject -server -log
+.\Engine\Binaries\Win64\UnrealEditor.exe Project.uproject -game -log -windowed -ResX=1280 -ResY=720
+```
+Docker(예시)
+```
+docker build -t battle-rogue-server -f Dockerfile.server .
+docker run -p 7777:7777/udp battle-rogue-server
+```
 
-### 3. 서버-클라이언트 간 전투 시스템 동기화
-- **기여:** 데디케이티드 서버 환경에서 플레이어의 HP, MP, 필살기 게이지 등 **핵심 전투 데이터가 서버에 의해서만 변경(Server-Authoritative)** 되도록 로직을 설계했습니다. 타격 판정은 서버 RPC로 처리하고, 그 결과(데미지, UI 변경)만을 각 클라이언트에 전송(Multicast)하여 모든 사용자가 일관된 전투 경험을 하도록 네트워크 동기화를 구현했습니다.
+## Project Structure
 
----
+```
+/Config
+/Content
+/Source               # C++ 코드
+/Assets or assets     # README 데모 GIF
+/Build or Docker      # 서버 빌드/이미지 스크립트(있다면)
+/README.md
+```
 
-## 🌱 문제 해결 및 성장 경험 (Troubleshooting)
+## Core Architecture
 
-- **문제점:** 개발 초기, 클라이언트 A가 공격했을 때 클라이언트 B의 화면에서는 피격 애니메이션은 재생되지만, 실제 HP는 줄어들지 않는 **데이터 불일치 문제**가 발생했습니다.
-- **해결 과정:** 언리얼 엔진의 네트워크 프로파일러와 로그를 분석하여 문제의 원인이 '타격 판정' 로직이 각 클라이언트에서 개별적으로 실행되었기 때문임을 파악했습니다. 이를 해결하기 위해, 모든 타격 판정 로직을 `Run on Server` RPC 이벤트로 이전하여 **서버에서만 판정을 내리고, 그 결과만을 `Multicast` RPC로 모든 클라이언트에 전파**하는 '서버 권위적(Server-Authoritative)' 구조로 리팩토링했습니다. 이 경험을 통해 안정적인 온라인 게임을 위한 네트워크 아키텍처 설계의 중요성을 깊이 체감할 수 있었습니다.
+- Input → Client Prediction → Server Authority
+- State Replication: 위치, 애니메이션 상태, 체력 등 핵심만 선별 복제
+- RPC
+  - RunOnServer: 입력·스킬 사용
+  - Multicast: 피격·이펙트 브로드캐스트
+- Lag Compensation: 서버 히트 스캔 시 과거 위치 보정(초안)
 
----
+## Code Snippet
 
-## 🎬 Demo
+```cpp
+void APlayerPawn::Tick(float Dt){
+  Super::Tick(Dt);
+  HandleInput(Dt);          // Client prediction
+  SimulatePhysics(Dt);      // Deterministic step
+}
+void APlayerPawn::Server_Attack_Implementation(const FInput& In){ /* validate, apply */ }
+UPROPERTY(ReplicatedUsing=OnRep_State) FNetState NetState;
+```
 
-<p align="left">
-  <img src="./assets/fighting-game-demo.gif" alt="온라인 격투 게임 플레이 화면" width="600"/>
-  <br/>
-  <i>온라인 1:1 격투 게임 실제 플레이 화면</i>
-</p>
+## Build
 
----
-> ↩️ **[전체 학습 아카이브로 돌아가기](https://github.com/jihun-moon/daegu-univ-cs)**
+- Editor 빌드: Development 또는 Shipping
+- Dedicated Server Target 포함 시 Packaging 메뉴에서 Server 빌드 가능
+- CI/CD(Optional): BuildGraph 또는 GitHub Actions로 에셋 요리(Cook) 후 아티팩트 업로드
+
+## Troubleshooting
+
+- 이동 튐: 네트워크 스무딩 값 점검, 보정 윈도우 확대
+- 애님 전이 끊김: Anim Notify 타이밍 재조정, Blend 설정 확인
+- 프레임 드랍: Lumen 품질 단계 완화, 라이트 수·그림자 캐스팅 최적화
+
+## Roadmap
+
+- [ ] 랙 보정 히트스캔 정식 적용
+- [ ] 매치메이킹 큐와 재시작 로직 고도화
+- [ ] 전투 스킬 세트 확장 및 상태 머신 정리
+
+## License
+
+MIT 또는 프로젝트에 맞는 라이선스를 명시하세요.
+
+Links
+- Notion 프로젝트 페이지: https://www.notion.so/… 혹은 내부 링크
+- 이슈 트래커: GitHub Issues
+
+필요하면 영어 버전 README도 만들어 줄게. 파일 구조나 서버 스크립트가 있으면 섹션을 그에 맞춰 더 정확히 조정해 드릴 수 있어.
