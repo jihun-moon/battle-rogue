@@ -1,113 +1,92 @@
-# Battle Rogue PVP
+# ⚔️ Battle Rogue PVP | Unreal Engine 5
 
-UE5 기반 1:1 PvP 멀티플레이 격투 게임. 전용 Dedicated Server와 Replication·RPC 설계로 저지연 상태 동기화를 구현했습니다.
+> ### 3줄 요약
+>
+>   - **PVP 전투 데모**: Unreal Engine 5와 C++, 블루프린트를 결합하여 제작한 실시간 3인칭 PVP 전투 데모입니다.
+>   - **핵심 시스템**: 애니메이션 몽타주 기반의 콤보 시스템, 정교한 대미지 판정, 그리고 기본적인 네트워크 동기화 기능을 구현했습니다.
+>   - **모듈화 설계**: UMG로 체력바 등 UI를 구현하고, 캐릭터의 입력, 이동, 상태 관리를 컴포넌트 기반으로 모듈화했습니다.
 
-- Engine: Unreal Engine 5
-- Language: C++ and Blueprint
-- Networking: UE Replication, RPC, Session
+-----
 
-## Demo
+## 🎮 데모
 
-![Anim Montage Process](assets/anim-montage-process.gif)
-![Gameplay Demo](assets/fighting-game-demo.gif)
+| 플레이 데모 | 애니메이션 몽타주 프로세스 |
+| :---: | :---: |
+| \<img src="assets/fighting-game-demo.gif" alt="Gameplay Demo" width="400"/\> | \<img src="assets/anim-montage-process.gif" alt="Anim Montage Process" width="400"/\> |
 
-assets 경로가 다르면 링크를 수정하세요.
+  - **시연 영상 (YouTube)**: `https://youtu.be/K5X9j_GAWU4`
 
-## Features
+-----
 
-- 서버 권위(Server-Authoritative) 구조
-- 플레이어 이동·공격 상태 동기화(Replication, RPC)
-- 매치메이킹 → 세션 생성 → 게임 종료 라이프사이클
-- 보간·보정 기반 랙 보정(Lag Compensation) 초안
+## ✅ 주요 기능
 
-## Tech Stack
+  - **전투 시스템**
+      - 애니메이션 몽타주 기반의 콤보 시스템 및 캔슬 윈도우
+      - 히트박스/허트박스를 이용한 정교한 충돌 판정, 대미지 계산, 피격 경직
+  - **캐릭터 컨트롤**
+      - 이동, 대시, 점프 등 기본 액션 및 상태머신(Idle/Attack/Hit/Down) 구현
+  - **UI / HUD**
+      - UMG를 이용한 HP 게이지, 콤보 히트 수, 매치 타이머 등 정보 시각화
+  - **멀티플레이 기본**
+      - `Replication`을 통한 위치/상태 동기화, `RPC`를 이용한 입력 처리, 서버 권위(Server Authority) 모델 적용
 
-- Unreal Engine 5, C++/Blueprint
-- Networking: Replication, Server/Client RPC, Session
-- Infra: 컨테이너 기반 전용 서버 빌드·배포
+-----
 
-## Getting Started
+## 🛠️ 개발 환경
 
-1. Requirements
-   - UE 5.x
-   - Visual Studio 2022 또는 clang toolchain
-2. Clone
-   - git clone https://github.com/<your-org>/battle-rogue.git
-3. Open
-   - UE에서 .uproject 열기
-4. Run
-   - 에디터: Play In Editor 또는 Standalone
-   - Dedicated Server: 아래 참조
+  - **Engine**: Unreal Engine 5.x
+  - **Language**: C++20
+  - **IDE**: Visual Studio 2022 또는 Rider
+  - **Platform**: Windows (64-bit)
 
-## Run Dedicated Server
+-----
 
-Windows 예시
-```
-.\Engine\Binaries\Win64\UnrealEditor.exe Project.uproject -server -log
-.\Engine\Binaries\Win64\UnrealEditor.exe Project.uproject -game -log -windowed -ResX=1280 -ResY=720
-```
-Docker(예시)
-```
-docker build -t battle-rogue-server -f Dockerfile.server .
-docker run -p 7777:7777/udp battle-rogue-server
-```
+## 🚀 실행 및 빌드 방법
 
-## Project Structure
+### 1\. 에디터에서 실행
 
-```
-/Config
-/Content
-/Source               # C++ 코드
-/Assets or assets     # README 데모 GIF
-/Build or Docker      # 서버 빌드/이미지 스크립트(있다면)
-/README.md
-```
+1.  `BattleRogue.uproject` 파일을 더블클릭하여 언리얼 에디터를 엽니다.
+2.  `Content/Maps/` 폴더의 PVP 테스트 맵을 열고 에디터에서 플레이(PIE)합니다.
 
-## Core Architecture
+### 2\. C++ 코드 빌드
 
-- Input → Client Prediction → Server Authority
-- State Replication: 위치, 애니메이션 상태, 체력 등 핵심만 선별 복제
-- RPC
-  - RunOnServer: 입력·스킬 사용
-  - Multicast: 피격·이펙트 브로드캐스트
-- Lag Compensation: 서버 히트 스캔 시 과거 위치 보정(초안)
+  - Visual Studio 또는 Rider에서 프로젝트 솔루션을 빌드하거나, 언리얼 에디터 내의 **Compile** 버튼을 클릭합니다.
 
-## Code Snippet
+### 3\. 프로젝트 패키징
 
-```cpp
-void APlayerPawn::Tick(float Dt){
-  Super::Tick(Dt);
-  HandleInput(Dt);          // Client prediction
-  SimulatePhysics(Dt);      // Deterministic step
-}
-void APlayerPawn::Server_Attack_Implementation(const FInput& In){ /* validate, apply */ }
-UPROPERTY(ReplicatedUsing=OnRep_State) FNetState NetState;
-```
+1.  **Edit → Project Settings → Packaging** 메뉴에서 빌드 타겟을 **Windows**로 설정합니다.
+2.  **File → Package Project → Windows**를 선택하여 프로젝트를 패키징합니다.
 
-## Build
+-----
 
-- Editor 빌드: Development 또는 Shipping
-- Dedicated Server Target 포함 시 Packaging 메뉴에서 Server 빌드 가능
-- CI/CD(Optional): BuildGraph 또는 GitHub Actions로 에셋 요리(Cook) 후 아티팩트 업로드
+## 🧩 핵심 클래스 및 블루프린트
 
-## Troubleshooting
+| 구분 | C++ 클래스 | 블루프린트 에셋 |
+| :--- | :--- | :--- |
+| **캐릭터** | `ABCharacter` | `BP_Player`, `BP_Enemy` |
+| **컴포넌트** | `ABCombatComponent`, `ABHealthComponent`| N/A |
+| **게임 로직**| `ABPlayerController`, `ABGameMode` | N/A |
+| **UI** | N/A | `WBP_HUD`, `WBP_Scoreboard`|
+| **애니메이션**| N/A | `BP_CombatMontage` |
 
-- 이동 튐: 네트워크 스무딩 값 점검, 보정 윈도우 확대
-- 애님 전이 끊김: Anim Notify 타이밍 재조정, Blend 설정 확인
-- 프레임 드랍: Lumen 품질 단계 완화, 라이트 수·그림자 캐스팅 최적화
+-----
 
-## Roadmap
+## 🔗 애니메이션 몽타주 가이드 (핵심 요약)
 
-- [ ] 랙 보정 히트스캔 정식 적용
-- [ ] 매치메이킹 큐와 재시작 로직 고도화
-- [ ] 전투 스킬 세트 확장 및 상태 머신 정리
+1.  **섹션 분리**: `Attack_A`, `Attack_B`, `Attack_C`와 같이 콤보 단계별로 몽타주 섹션을 분리합니다.
+2.  **Notify 활용**: `AnimNotify`를 사용하여 특정 프레임에 히트박스 활성화/비활성화, 카메라 셰이크, 사운드 이펙트 등을 트리거합니다.
+3.  **다음 콤보 전이**: 입력 버퍼와 캐릭터의 현재 상태를 체크하여 다음 몽타주 섹션으로 자연스럽게 전이되도록 로직을 구성합니다.
 
-## License
+-----
 
-MIT 또는 프로젝트에 맞는 라이선스를 명시하세요.
+## 🌐 네트워킹 메모
 
-Links
-- Notion 프로젝트 페이지: https://www.notion.so/… 혹은 내부 링크
-- 이슈 트래커: GitHub Issues
+  - **변수 복제 (Replication)**: `Replicated` 키워드를 사용하여 위치, 캐릭터 상태, HP 등 중요한 변수를 서버에서 클라이언트로 동기화합니다.
+  - **서버 권위 (Server Authority)**: 모든 대미지 판정은 서버에서만 수행하고, 그 결과를 `NetMulticast` RPC를 통해 모든 클라이언트에 시각 효과(VFX, SFX)로 재생합니다.
+  - **입력 처리**: 사용자의 입력은 클라이언트에서 서버로 `Server_` 접두사가 붙은 RPC를 통해 전송하고, 서버 처리 결과는 `RepNotify`를 통해 각 클라이언트의 UI에 반영합니다.
 
-필요하면 영어 버전 README도 만들어 줄게. 파일 구조나 서버 스크립트가 있으면 섹션을 그에 맞춰 더 정확히 조정해 드릴 수 있어.
+-----
+
+## 📜 라이선스
+
+이 프로젝트는 [MIT 라이선스](https://opensource.org/licenses/MIT)를 따릅니다. (단, 사용된 애셋의 라이선스는 개별 폴더의 `NOTICE` 파일을 참고하세요.)
