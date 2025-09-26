@@ -1,0 +1,1627 @@
+﻿Log file open, 06/10/25 00:50:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": 매개 변수가 틀립니다.
+LogWindows: Custom abort handler registered for crash reporting.
+LogCore: Display: UTS: The Unreal Trace Server binary is not available ('../../../Engine/Binaries/Win64/UnrealTraceServer.exe')
+LogTrace: Initializing trace...
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="UE5-CL-0"
+LogCsvProfiler: Display: Metadata set : engineversion="5.5.4-0+UE5"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.4061] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" BattleRogue""
+LogCsvProfiler: Display: Metadata set : loginid="6053ec8e413553a3f8317a8bed1c02eb"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPakFile: Initializing PakPlatformFile
+LogIoDispatcher: Display: Reading toc: ../../../BattleRogue/Content/Paks/global.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../BattleRogue/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../BattleRogue/Content/Paks/global.utoc' in location slot 0
+LogPakFile: Display: Initialized I/O dispatcher file backend. Mounted the global container: ../../../BattleRogue/Content/Paks/global.utoc
+LogPakFile: Display: Found Pak file ../../../BattleRogue/Content/Paks/BattleRogue-Windows.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../BattleRogue/Content/Paks/BattleRogue-Windows.pak.
+LogIoDispatcher: Display: Reading toc: ../../../BattleRogue/Content/Paks/BattleRogue-Windows.utoc
+LogIoDispatcher: Display: Toc loaded : ../../../BattleRogue/Content/Paks/BattleRogue-Windows.utoc, Id=45c69948b5ee1218, Order=4, EntryCount=2236, SignatureHash=0000000000000000000000000000000000000000
+LogIoDispatcher: Display: Mounting container '../../../BattleRogue/Content/Paks/BattleRogue-Windows.utoc' in location slot 0
+LogPakFile: Display: Mounted IoStore container "../../../BattleRogue/Content/Paks/BattleRogue-Windows.utoc"
+LogFilePackageStore: Mounting container: Id=45c69948b5ee1218, Order=4, NumPackages=684
+LogPakFile: Display: Mounted Pak file '../../../BattleRogue/Content/Paks/BattleRogue-Windows.pak', mount point: '../../../'
+LogStats: Stats thread started at 0.256283
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+LogICUInternationalization: OS requested locale 'ko-KR' is not supported. Using the OS requested language of 'ko-KR' as the locale.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-CDEB8F1D429E4897964A5D9F603FBDD8
+         Session CrashGUID >====================================================
+LogAssetRegistry: Premade AssetRegistry loaded from '../../../BattleRogue/AssetRegistry.bin'
+LogConfig: No local boot hotfix file found at: [../../../BattleRogue/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogAudio: Display: Pre-Initializing Audio Device Manager...
+LogAudio: Display: AudioInfo: 'OPUS' Registered
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogAudio: Display: AudioInfo: 'OGG' Registered
+LogAudio: Display: AudioInfo: 'ADPCM' Registered
+LogAudio: Display: AudioInfo: 'PCM' Registered
+LogAudio: Display: AudioInfo: 'BINKA' Registered
+LogAudio: Display: AudioInfo: 'RADA' Registered
+LogAudio: Display: Audio Device Manager Pre-Initialized
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin ControlRigModules
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin DeformerGraph
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin LiveLink
+LogPluginManager: Mounting Engine plugin RigLogic
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosVD
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin ConcertMain
+LogPluginManager: Mounting Engine plugin ConcertSyncClient
+LogPluginManager: Mounting Engine plugin ConcertSyncCore
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ColorGrading
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UMGWidgetPreview
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin SkeletalMeshModelingTools
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin HoldoutComposite
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin EditorDataStorage
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MetaHumanSDK
+LogPluginManager: Mounting Engine plugin NFORDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin StudioTelemetry
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogPluginManager: Mounting Engine plugin NiagaraSimCaching
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin Fab
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeAssets
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin NNEDenoiser
+LogPluginManager: Mounting Engine plugin NNERuntimeORT
+LogPluginManager: Mounting Engine plugin EOSShared
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin ComputeFramework
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin SQLiteCore
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin StateTree
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin USDCore
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin XInputDevice
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin WorldMetrics
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogNFORDenoise: NFORDenoise function starting up
+LogEOSSDK: Initializing EOSSDK Version:1.17.0-39599718
+LogInit: Using libcurl 8.4.0
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.3
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_HTTP2
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+LogInit: Creating http thread with maximum 2147483647 concurrent requests
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogInit: ExecutableName: BattleRogue.exe
+LogInit: Build: UE5-CL-0
+LogInit: Platform=Windows
+LogInit: MachineId=6053ec8e413553a3f8317a8bed1c02eb
+LogInit: DeviceId=
+LogInit: Engine Version: 5.5.4-0+UE5
+LogInit: Compatible Engine Version: 5.5.0-0+UE5
+LogInit: Net CL: 0
+LogInit: OS: Windows 11 (24H2) [10.0.26100.4061] (), CPU: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1660 SUPER
+LogInit: Compiled (64-bit): May 10 2025 14:29:14
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.38.33145.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE5
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/PC/Desktop/Client/Windows/BattleRogue/Binaries/Win64/
+LogInit: Allocator: Binned2
+LogInit: Installed Engine Build: 0
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 40
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 49
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 170
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 8
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 13
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 15
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 119
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 51
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   Dev-NaniteResearch (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogDevObjectVersion:   Dev-RigVM (DC49959B-53C0-4DE7-9156-EA885E7C5D39): 15
+LogDevObjectVersion:   Dev-ControlRig (A7820CFB-20A7-4359-8C54-2C149623CF50): 32
+LogDevObjectVersion:   Dev-IKRig (F6DFBB78-BB50-A0E4-4018-B84D60CBAF23): 2
+LogDevObjectVersion:   Dev-ComputeFramework (6304A3E7-0059-4F59-8CFC-21BD7721FD4E): 0
+LogDevObjectVersion:   Dev-Optimus (93EDE1AA-10CA-7375-4DF9-8A2849B157A0): 12
+LogConfig: Branch 'Lightmass' had been unloaded. Reloading on-demand took 4.07ms
+LogConfig: Branch 'AISupport' had been unloaded. Reloading on-demand took 0.79ms
+LogConfig: Branch 'EnvironmentQueryEditor' had been unloaded. Reloading on-demand took 0.75ms
+LogConfig: Branch 'ACLPlugin' had been unloaded. Reloading on-demand took 0.73ms
+LogConfig: Branch 'AnimationData' had been unloaded. Reloading on-demand took 0.86ms
+LogConfig: Branch 'ControlRigModules' had been unloaded. Reloading on-demand took 0.84ms
+LogConfig: Branch 'ControlRigSpline' had been unloaded. Reloading on-demand took 0.75ms
+LogConfig: Branch 'RigLogic' had been unloaded. Reloading on-demand took 0.65ms
+LogConfig: Branch 'Bridge' had been unloaded. Reloading on-demand took 0.50ms
+LogConfig: Branch 'CameraShakePreviewer' had been unloaded. Reloading on-demand took 0.55ms
+LogConfig: Branch 'EngineCameras' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'ChaosCloth' had been unloaded. Reloading on-demand took 0.54ms
+LogConfig: Branch 'OodleNetwork' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'AnimationSharing' had been unloaded. Reloading on-demand took 0.50ms
+LogConfig: Branch 'ConcertMain' had been unloaded. Reloading on-demand took 0.52ms
+LogConfig: Branch 'ConcertSyncClient' had been unloaded. Reloading on-demand took 0.54ms
+LogConfig: Branch 'DumpGPUServices' had been unloaded. Reloading on-demand took 0.68ms
+LogConfig: Branch 'PixWinPlugin' had been unloaded. Reloading on-demand took 0.75ms
+LogConfig: Branch 'PluginUtils' had been unloaded. Reloading on-demand took 0.76ms
+LogConfig: Branch 'RenderDocPlugin' had been unloaded. Reloading on-demand took 0.75ms
+LogConfig: Branch 'UObjectPlugin' had been unloaded. Reloading on-demand took 0.67ms
+LogConfig: Branch 'AssetManagerEditor' had been unloaded. Reloading on-demand took 0.61ms
+LogConfig: Branch 'BlueprintHeaderView' had been unloaded. Reloading on-demand took 0.80ms
+LogConfig: Branch 'ColorGrading' had been unloaded. Reloading on-demand took 0.90ms
+LogConfig: Branch 'ContentBrowserAssetDataSource' had been unloaded. Reloading on-demand took 0.62ms
+LogConfig: Branch 'DataValidation' had been unloaded. Reloading on-demand took 0.59ms
+LogConfig: Branch 'FacialAnimation' had been unloaded. Reloading on-demand took 0.53ms
+LogConfig: Branch 'GeometryMode' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'LightMixer' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'ObjectMixer' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'SequencerAnimTools' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'SpeedTreeImporter' had been unloaded. Reloading on-demand took 0.50ms
+LogConfig: Branch 'UMGWidgetPreview' had been unloaded. Reloading on-demand took 0.50ms
+LogConfig: Branch 'UVEditor' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'VariantManager' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'SkeletalMeshModelingTools' had been unloaded. Reloading on-demand took 0.52ms
+LogConfig: Branch 'AutomationUtils' had been unloaded. Reloading on-demand took 0.48ms
+LogConfig: Branch 'BackChannel' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'ChaosCaching' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'ChaosEditor' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'ChaosNiagara' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'ChaosSolverPlugin' had been unloaded. Reloading on-demand took 0.55ms
+LogConfig: Branch 'ChaosUserDataPT' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'CharacterAI' had been unloaded. Reloading on-demand took 0.68ms
+LogConfig: Branch 'Dataflow' had been unloaded. Reloading on-demand took 0.64ms
+LogConfig: Branch 'EditorDataStorage' had been unloaded. Reloading on-demand took 0.55ms
+LogConfig: Branch 'Fracture' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'GeometryCollectionPlugin' had been unloaded. Reloading on-demand took 0.58ms
+LogConfig: Branch 'LocalizableMessage' had been unloaded. Reloading on-demand took 0.62ms
+LogConfig: Branch 'NFORDenoise' had been unloaded. Reloading on-demand took 0.79ms
+LogConfig: Branch 'PlatformCrypto' had been unloaded. Reloading on-demand took 0.81ms
+LogConfig: Branch 'PythonScriptPlugin' had been unloaded. Reloading on-demand took 0.73ms
+LogConfig: Branch 'StudioTelemetry' had been unloaded. Reloading on-demand took 0.58ms
+LogConfig: Branch 'NiagaraSimCaching' had been unloaded. Reloading on-demand took 0.53ms
+LogConfig: Branch 'AlembicImporter' had been unloaded. Reloading on-demand took 0.54ms
+LogConfig: Branch 'InterchangeEditor' had been unloaded. Reloading on-demand took 0.54ms
+LogConfig: Branch 'AvfMedia' had been unloaded. Reloading on-demand took 0.50ms
+LogConfig: Branch 'ImgMedia' had been unloaded. Reloading on-demand took 0.48ms
+LogConfig: Branch 'MediaCompositing' had been unloaded. Reloading on-demand took 0.50ms
+LogConfig: Branch 'MediaPlate' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'WebMMedia' had been unloaded. Reloading on-demand took 0.57ms
+LogConfig: Branch 'WmfMedia' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'MeshPainting' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'TcpMessaging' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'UdpMessaging' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'ActorSequence' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'LevelSequenceEditor' had been unloaded. Reloading on-demand took 0.64ms
+LogConfig: Branch 'SequencerScripting' had been unloaded. Reloading on-demand took 0.54ms
+LogConfig: Branch 'TemplateSequence' had been unloaded. Reloading on-demand took 0.50ms
+LogConfig: Branch 'NNEDenoiser' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'NNERuntimeORT' had been unloaded. Reloading on-demand took 0.51ms
+LogConfig: Branch 'EOSShared' had been unloaded. Reloading on-demand took 0.48ms
+LogConfig: Branch 'OnlineBase' had been unloaded. Reloading on-demand took 0.65ms
+LogConfig: Branch 'OnlineServices' had been unloaded. Reloading on-demand took 0.80ms
+LogConfig: Branch 'OnlineSubsystemNull' had been unloaded. Reloading on-demand took 0.61ms
+LogConfig: Branch 'OnlineSubsystemUtils' had been unloaded. Reloading on-demand took 0.53ms
+LogConfig: Branch 'OnlineSubsystem' had been unloaded. Reloading on-demand took 0.56ms
+LogConfig: Branch 'LauncherChunkInstaller' had been unloaded. Reloading on-demand took 0.54ms
+LogConfig: Branch 'ActorLayerUtilities' had been unloaded. Reloading on-demand took 0.52ms
+LogConfig: Branch 'AndroidFileServer' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'AndroidPermission' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'AppleImageUtils' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'ArchVisCharacter' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'AssetTags' had been unloaded. Reloading on-demand took 0.46ms
+LogConfig: Branch 'AudioCapture' had been unloaded. Reloading on-demand took 0.48ms
+LogConfig: Branch 'AudioSynesthesia' had been unloaded. Reloading on-demand took 0.48ms
+LogConfig: Branch 'AudioWidgets' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'CableComponent' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'ChunkDownloader' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'ComputeFramework' had been unloaded. Reloading on-demand took 0.48ms
+LogConfig: Branch 'CustomMeshComponent' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'SQLiteCore' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'ExampleDeviceProfileSelector' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'GeometryCache' had been unloaded. Reloading on-demand took 0.48ms
+LogConfig: Branch 'GeometryProcessing' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'GooglePAD' had been unloaded. Reloading on-demand took 0.47ms
+LogConfig: Branch 'InputDebugging' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'LocationServicesBPLibrary' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'MobilePatchingUtils' had been unloaded. Reloading on-demand took 0.53ms
+LogConfig: Branch 'MsQuic' had been unloaded. Reloading on-demand took 0.59ms
+LogConfig: Branch 'ProceduralMeshComponent' had been unloaded. Reloading on-demand took 0.53ms
+LogConfig: Branch 'PropertyAccessEditor' had been unloaded. Reloading on-demand took 0.49ms
+LogConfig: Branch 'ResonanceAudio' had been unloaded. Reloading on-demand took 0.50ms
+LogConfig: Branch 'SignificanceManager' had been unloaded. Reloading on-demand took 0.72ms
+LogConfig: Branch 'SoundFields' had been unloaded. Reloading on-demand took 0.68ms
+LogConfig: Branch 'WaveTable' had been unloaded. Reloading on-demand took 0.89ms
+LogConfig: Branch 'WebMMoviePlayer' had been unloaded. Reloading on-demand took 0.52ms
+LogConfig: Branch 'WindowsDeviceProfileSelector' had been unloaded. Reloading on-demand took 0.54ms
+LogConfig: Branch 'WindowsMoviePlayer' had been unloaded. Reloading on-demand took 0.50ms
+LogConfig: Branch 'XInputDevice' had been unloaded. Reloading on-demand took 0.48ms
+LogConfig: Branch 'InterchangeTests' had been unloaded. Reloading on-demand took 0.48ms
+LogConfig: Branch 'WorldMetrics' had been unloaded. Reloading on-demand took 0.48ms
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC.
+LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: true, Async Post Load: true
+LogStreaming: Display: AsyncLoading2 - Initialized
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: Set CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Nanite.Streaming.ReservedResources:1]]
+LogConfig: Set CVar [[r.Nanite.Streaming.AsyncCompute:0	; Temporary workaround for Nanite geometry corruption (FORT-805141)]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[D3D12.Bindless.ResourceDescriptorHeapSize:32768]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.DynamicRes.DynamicFrameTime:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.VRS.EnableSoftware:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2025.06.09-15.50.43:081][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2025.06.09-15.50.43:081][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2025.06.09-15.50.43:081][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2025.06.09-15.50.43:081][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2025.06.09-15.50.43:081][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2025.06.09-15.50.43:081][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2025.06.09-15.50.43:081][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2025.06.09-15.50.43:081][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2025.06.09-15.50.43:081][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.AllowStaticLighting:0]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.GenerateMeshDistanceFields:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.DynamicGlobalIlluminationMethod:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.ReflectionMethod:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.SkinCache.CompileShaders:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.RayTracing:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.Shadow.Virtual.Enable:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.HighlightContrastScale:0.8]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.DefaultFeature.LocalExposure.ShadowContrastScale:0.8]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2025.06.09-15.50.43:081][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2025.06.09-15.50.43:081][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2025.06.09-15.50.43:081][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2025.06.09-15.50.43:082][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2025.06.09-15.50.43:082][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2025.06.09-15.50.43:082][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2025.06.09-15.50.43:082][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Set CVar [[gc.GarbageEliminationEnabled:1]]
+[2025.06.09-15.50.43:082][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2025.06.09-15.50.43:082][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2025.06.09-15.50.43:082][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2025.06.09-15.50.43:239][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.TSR.ReprojectionField:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.TSR.Resurrection:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ShortRangeAO.HardwareRayTracing:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.RayTracing.Scene.BuildMode:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.MaxRoughnessToEvaluateRoughSpecularForFoliage:0.8]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.TonemapMode:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.MinWeight:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2025.06.09-15.50.43:239][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.DetailMode:3]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.DownsampleFactor:1]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.MaxStepCount:512]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.HeterogeneousVolumes.Shadows.Resolution:512]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2025.06.09-15.50.43:240][  0]LogConfig: Applying CVar settings from Section [LandscapeQuality@3] File [Scalability]
+[2025.06.09-15.50.43:241][  0]LogRHI: Using Default RHI: D3D12
+[2025.06.09-15.50.43:241][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.06.09-15.50.43:241][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.06.09-15.50.43:241][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2025.06.09-15.50.43:241][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.06.09-15.50.43:896][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 1660 SUPER (VendorId: 10de, DeviceId: 21c4, SubSysId: 21c410de, Revision: 00a1
+[2025.06.09-15.50.43:896][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.06.09-15.50.43:896][  0]LogD3D12RHI:   Adapter has 5966MB of dedicated video memory, 0MB of dedicated system memory, and 8146MB of shared system memory, 3 output[s]
+[2025.06.09-15.50.43:896][  0]LogD3D12RHI:   Driver Version: 576.52 (internal:32.0.15.7652, unified:576.52)
+[2025.06.09-15.50.43:896][  0]LogD3D12RHI:      Driver Date: 5-14-2025
+[2025.06.09-15.50.43:906][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (VendorId: 1414, DeviceId: 008c, SubSysId: 0000, Revision: 0000
+[2025.06.09-15.50.43:906][  0]LogD3D12RHI:   Max supported Feature Level 12_1, shader model 6.7, binding tier 3, wave ops supported, atomic64 supported
+[2025.06.09-15.50.43:906][  0]LogD3D12RHI:   Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8146MB of shared system memory, 0 output[s]
+[2025.06.09-15.50.43:906][  0]LogD3D12RHI: DirectX Agility SDK runtime found.
+[2025.06.09-15.50.43:906][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2025.06.09-15.50.43:906][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.06.09-15.50.43:906][  0]LogInit: Selected Device Profile: [Windows]
+[2025.06.09-15.50.43:906][  0]LogHAL: Display: Platform has ~ 16 GB [17084747776 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.06.09-15.50.43:906][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.06.09-15.50.43:906][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+[2025.06.09-15.50.43:906][  0]LogDeviceProfileManager: Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+[2025.06.09-15.50.43:906][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.06.09-15.50.43:906][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2025.06.09-15.50.43:907][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2025.06.09-15.50.43:907][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2025.06.09-15.50.43:907][  0]LogConfig: CVar [[ds.CADTranslator.Meshing.ActivateThinZoneMeshing:0]] deferred - dummy variable created
+[2025.06.09-15.50.43:907][  0]LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dummy variable created
+[2025.06.09-15.50.43:907][  0]LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
+[2025.06.09-15.50.43:907][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2025.06.09-15.50.43:907][  0]LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
+[2025.06.09-15.50.43:907][  0]LogConfig: CVar [[r.CEFGPUAcceleration:1]] deferred - dummy variable created
+[2025.06.09-15.50.43:907][  0]LogInit: Computer: DESKTOP-PQL3MS0
+[2025.06.09-15.50.43:907][  0]LogInit: User: PC
+[2025.06.09-15.50.43:907][  0]LogInit: CPU Page size=4096, Cores=6
+[2025.06.09-15.50.43:907][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.06.09-15.50.44:169][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.06.09-15.50.44:169][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=47.9GB
+[2025.06.09-15.50.44:169][  0]LogMemory: Platform Memory Stats for Windows
+[2025.06.09-15.50.44:169][  0]LogMemory: Process Physical Memory: 253.55 MB used, 291.01 MB peak
+[2025.06.09-15.50.44:169][  0]LogMemory: Process Virtual Memory: 149.14 MB used, 153.14 MB peak
+[2025.06.09-15.50.44:169][  0]LogMemory: Physical Memory: 8586.99 MB used,  7706.29 MB free, 16293.29 MB total
+[2025.06.09-15.50.44:169][  0]LogMemory: Virtual Memory: 19941.61 MB used,  29119.67 MB free, 49061.29 MB total
+[2025.06.09-15.50.44:169][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.06.09-15.50.44:186][  0]LogWindows: WindowsPlatformFeatures enabled
+[2025.06.09-15.50.44:186][  0]LogChaosDD: Chaos Debug Draw Startup
+[2025.06.09-15.50.44:186][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2025.06.09-15.50.44:186][  0]LogInit: Using OS detected language (ko-KR).
+[2025.06.09-15.50.44:186][  0]LogInit: Using OS detected locale (ko-KR).
+[2025.06.09-15.50.44:186][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
+[2025.06.09-15.50.44:187][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
+[2025.06.09-15.50.44:245][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2025.06.09-15.50.44:245][  0]LogWindowsTextInputMethodSystem:   - 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.06.09-15.50.44:245][  0]LogWindowsTextInputMethodSystem:   - 한국어(대한민국) - 터치식 입력 수정 (TSF IME).
+[2025.06.09-15.50.44:247][  0]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.06.09-15.50.44:385][  0]LogSlate: New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+[2025.06.09-15.50.44:385][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2025.06.09-15.50.44:508][  0]LogRHI: Using Default RHI: D3D12
+[2025.06.09-15.50.44:508][  0]LogRHI: Using Highest Feature Level of D3D12: SM6
+[2025.06.09-15.50.44:508][  0]LogRHI: Loading RHI module D3D12RHI
+[2025.06.09-15.50.44:508][  0]LogRHI: Checking if RHI D3D12 with Feature Level SM6 is supported by your system.
+[2025.06.09-15.50.44:508][  0]LogRHI: RHI D3D12 with Feature Level SM6 is supported and will be used.
+[2025.06.09-15.50.44:508][  0]LogD3D12RHI: Display: Creating D3D12 RHI with Max Feature Level SM6
+[2025.06.09-15.50.44:509][  0]LogWindows: Attached monitors:
+[2025.06.09-15.50.44:509][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1032), device: '\\.\DISPLAY2' [PRIMARY]
+[2025.06.09-15.50.44:509][  0]LogWindows:     resolution: 1920x1080, work area: (-1920, 0) -> (0, 1032), device: '\\.\DISPLAY1'
+[2025.06.09-15.50.44:509][  0]LogWindows:     resolution: 1920x1080, work area: (1920, 0) -> (3840, 1032), device: '\\.\DISPLAY3'
+[2025.06.09-15.50.44:509][  0]LogWindows: Found 3 attached monitors.
+[2025.06.09-15.50.44:509][  0]LogWindows: Gathering driver information using Windows Setup API
+[2025.06.09-15.50.44:510][  0]LogRHI: RHI Adapter Info:
+[2025.06.09-15.50.44:510][  0]LogRHI:             Name: NVIDIA GeForce GTX 1660 SUPER
+[2025.06.09-15.50.44:510][  0]LogRHI:   Driver Version: 576.52 (internal:32.0.15.7652, unified:576.52)
+[2025.06.09-15.50.44:510][  0]LogRHI:      Driver Date: 5-14-2025
+[2025.06.09-15.50.44:510][  0]LogD3D12RHI:     GPU DeviceId: 0x21c4 (for the marketing name, search the web for "GPU Device Id")
+[2025.06.09-15.50.44:510][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2025.06.09-15.50.44:672][  0]LogNvidiaAftermath: Aftermath initialized
+[2025.06.09-15.50.44:672][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2025.06.09-15.50.44:765][  0]LogNvidiaAftermath: Aftermath enabled. Active feature flags: 
+[2025.06.09-15.50.44:765][  0]LogNvidiaAftermath:  - Feature: EnableResourceTracking
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device8 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device9 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device10 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device11 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: ID3D12Device12 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: Bindless resources are supported
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: Stencil ref from pixel shader is not supported
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: Raster order views are supported
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: Wave Operations are supported (wave size: min=32 max=32).
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: Ray tracing is disabled because D3D12 ray tracing tier 1.1 is required but only tier 1.0 is supported.
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: Mesh shader tier 1.0 is supported
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2025.06.09-15.50.44:765][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2025.06.09-15.50.44:861][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001DBCF7B7F80)
+[2025.06.09-15.50.44:862][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001DBCF7B8200)
+[2025.06.09-15.50.44:862][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for DiagnosticBuffer (Queue: 0x000001DBCF7B8480)
+[2025.06.09-15.50.44:862][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2025.06.09-15.50.44:862][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2025.06.09-15.50.44:863][  0]LogRHI: Texture pool is 3274 MB (70% of 4678 MB)
+[2025.06.09-15.50.44:863][  0]LogD3D12RHI: Async texture creation enabled
+[2025.06.09-15.50.44:863][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2025.06.09-15.50.44:890][  0]LogVRS: Current RHI supports per-draw and screenspace Variable Rate Shading
+[2025.06.09-15.50.44:892][  0]LogInit: Initializing FReadOnlyCVARCache
+[2025.06.09-15.50.44:902][  0]LogRendererCore: Ray tracing is disabled. Reason: not supported by current RHI.
+[2025.06.09-15.50.44:903][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library Global. Total 7584 unique shaders.
+[2025.06.09-15.50.44:903][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2025.06.09-15.50.44:903][  0]LogShaderLibrary: Display: Logical shader library 'Global' has been created as a monolithic library
+[2025.06.09-15.50.44:903][  0]LogTemp: Display: Clearing the OS Cache
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: --- StereoAspects begin ---
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: Platform=PCD3D_SM6 (49)
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bInstancedStereo = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bMobilePlatform = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bMobilePostprocessing = 1
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bMobileMultiView = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bMultiViewportCapable = 1
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bInstancedStereoNative = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: ---
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bMobileMultiViewCoreSupport = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bMobileMultiViewNative = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bMobileMultiViewFallback = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: ---
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bInstancedMultiViewportEnabled = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bInstancedStereoEnabled = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: bMobileMultiViewEnabled = 0
+[2025.06.09-15.50.44:912][  0]LogInit: FStereoShaderAspects: --- StereoAspects end ---
+[2025.06.09-15.50.44:917][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.06.09-15.50.44:917][  0]LogInit: XR: MultiViewport is Disabled
+[2025.06.09-15.50.44:917][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.06.09-15.50.44:942][  0]LogSlate: Using FreeType 2.10.0
+[2025.06.09-15.50.44:943][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2025.06.09-15.50.45:094][  0]LogShaderLibrary: Display: Using IoDispatcher for shader code library BattleRogue. Total 2067 unique shaders.
+[2025.06.09-15.50.45:094][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library BattleRogue
+[2025.06.09-15.50.45:094][  0]LogShaderLibrary: Display: Logical shader library 'BattleRogue' has been created as a monolithic library
+[2025.06.09-15.50.45:095][  0]LogRHI: Could not open FPipelineCacheFile: ../../../BattleRogue/Content/PipelineCaches/Windows/BattleRogue_PCD3D_SM6.stable.upipelinecache
+[2025.06.09-15.50.45:095][  0]LogRHI: Could not open FPipelineCacheFile: ../../../BattleRogue/Content/PipelineCaches/Windows/BattleRogue_PCD3D_SM6.stable.upipelinecache
+[2025.06.09-15.50.45:095][  0]LogShaderLibrary: Display: Tried to open again shader library 'BattleRogue', but could not find new components for it (existing components: 1).
+[2025.06.09-15.50.45:095][  0]LogRHI: Could not open FPipelineCacheFile: ../../../BattleRogue/Content/PipelineCaches/Windows/BattleRogue_PCD3D_SM6.stable.upipelinecache
+[2025.06.09-15.50.45:095][  0]LogInit: Using OS detected language (ko-KR).
+[2025.06.09-15.50.45:095][  0]LogInit: Using OS detected locale (ko-KR).
+[2025.06.09-15.50.45:096][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
+[2025.06.09-15.50.45:096][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
+[2025.06.09-15.50.45:096][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2025.06.09-15.50.45:308][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.09-15.50.45:308][  0]LogFilePackageStore: Updated: NewPackages=684, OldPackages=0, TotalPackages=684
+[2025.06.09-15.50.45:313][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.06.09-15.50.45:313][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.06.09-15.50.45:316][  0]LogDeviceProfileManager: Active device profile: [00007FF466769A68][000001DBF8E6C020 66] Windows
+[2025.06.09-15.50.45:316][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="Windows"
+[2025.06.09-15.50.45:691][  0]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.06.09-15.50.45:730][  0]LogConfig: Branch 'EditorPerProjectUserSettings' had been unloaded. Reloading on-demand took 7.09ms
+[2025.06.09-15.50.45:791][  0]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.06.09-15.50.46:023][  0]LogPackageLocalizationCache: Processed 57 localized package path(s) for 1 prioritized culture(s) in 0.000149 seconds
+[2025.06.09-15.50.46:047][  0]LogConfig: Branch 'GameplayTagsList' had been unloaded. Reloading on-demand took 5.41ms
+[2025.06.09-15.50.46:060][  0]LogConfig: Branch 'TranslationPickerSettings' had been unloaded. Reloading on-demand took 5.54ms
+[2025.06.09-15.50.46:076][  0]LogConfig: Branch 'Mass' had been unloaded. Reloading on-demand took 5.06ms
+[2025.06.09-15.50.46:094][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.06.09-15.50.46:094][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.06.09-15.50.46:108][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.06.09-15.50.46:110][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.06.09-15.50.46:130][  0]LogMoviePlayer: Initializing movie player
+[2025.06.09-15.50.46:135][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 621B590821024228800000000000B200 | Instance: 8BE629B04C6C4907CFE826979EE596CE (DESKTOP-PQL3MS0-30136).
+[2025.06.09-15.50.46:181][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.06.09-15.50.46:181][  0]LogNNERuntimeORT: 0: NVIDIA GeForce GTX 1660 SUPER (Compute, Graphics)
+[2025.06.09-15.50.46:181][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2025.06.09-15.50.46:181][  0]LogNNERuntimeORT: No NPU adapter found!
+[2025.06.09-15.50.46:211][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.06.09-15.50.46:212][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.06.09-15.50.46:227][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.06.09-15.50.46:248][  0]LogUObjectArray: 27479 objects as part of root set at end of initial load.
+[2025.06.09-15.50.46:248][  0]LogUObjectArray: 4 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2025.06.09-15.50.46:248][  0]LogUObjectArray: CloseDisregardForGC: 27479/27479 objects in disregard for GC pool
+[2025.06.09-15.50.46:266][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 26776 public script object entries (695.98 KB)
+[2025.06.09-15.50.46:277][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: true, IsInitialLoad: false
+[2025.06.09-15.50.46:616][  0]LogEngine: Initializing Engine...
+[2025.06.09-15.50.46:629][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.06.09-15.50.46:646][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.06.09-15.50.46:646][  0]LogInit: Texture streaming: Enabled
+[2025.06.09-15.50.46:646][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.06.09-15.50.46:646][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.06.09-15.50.46:646][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.06.09-15.50.46:646][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.06.09-15.50.46:646][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.06.09-15.50.46:647][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.09-15.50.46:647][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.09-15.50.46:647][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.09-15.50.46:647][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.09-15.50.46:647][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.09-15.50.46:647][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.09-15.50.46:647][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.09-15.50.46:647][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.09-15.50.46:647][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.09-15.50.46:647][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.09-15.50.46:647][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.09-15.50.46:668][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.09-15.50.46:964][  0]LogAudioMixer: Display: Using Audio Hardware Device 스피커(3- USB Audio Device)
+[2025.06.09-15.50.46:964][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.09-15.50.46:966][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.09-15.50.46:966][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.09-15.50.46:968][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.06.09-15.50.46:968][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2025.06.09-15.50.46:978][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.06.09-15.50.46:978][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.06.09-15.50.46:978][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.06.09-15.50.46:979][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.06.09-15.50.46:979][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.06.09-15.50.47:167][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.06.09-15.50.47:170][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.06.09-15.50.47:170][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.09-15.50.47:170][  0]LogInit: Display: Game Engine Initialized.
+[2025.06.09-15.50.47:170][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2025.06.09-15.50.47:182][  0]LogInit: Display: Starting Game.
+[2025.06.09-15.50.47:183][  0]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/MainMenuMap?Name=Player"
+[2025.06.09-15.50.47:183][  0]LogNet: Browse: /Game/Maps/MainMenuMap?Name=Player
+[2025.06.09-15.50.47:183][  0]LogLoad: LoadMap: /Game/Maps/MainMenuMap?Name=Player
+[2025.06.09-15.50.47:183][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2025.06.09-15.50.47:183][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.06.09-15.50.47:183][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-15.50.47:250][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.09-15.50.47:252][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.06.09-15.50.47:283][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuMap'.
+[2025.06.09-15.50.47:283][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuMap
+[2025.06.09-15.50.47:286][  0]LogWorldPartition: ULevel::OnLevelLoaded(MainMenuMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.09-15.50.47:286][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.09-15.50.47:286][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/MainMenuMap.MainMenuMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.09-15.50.47:286][  0]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.09-15.50.47:287][  0]LogWorldPartition: Display: WorldPartition initialize took 155 us
+[2025.06.09-15.50.47:287][  0]LogLoad: Game class is 'BP_MenuMode_C'
+[2025.06.09-15.50.47:288][  0]LogWorld: Bringing World /Game/Maps/MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2025.06.10-00.50.47
+[2025.06.09-15.50.47:288][  0]LogWorld: Bringing up level for play took: 0.002438
+[2025.06.09-15.50.47:289][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.09-15.50.47:289][  0]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2025.06.09-15.50.47:307][  0]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'r.Water.WaterInfo.RenderMethod'. 
+[2025.06.09-15.50.47:334][  0]LogRHI: Display: Encountered a new graphics PSO: 144810011
+[2025.06.09-15.50.47:484][  0]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.50.47:484][  0]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.06.09-15.50.47:484][  0]LogLoad: Took 0.301936 seconds to LoadMap(/Game/Maps/MainMenuMap)
+[2025.06.09-15.50.47:484][  0]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/MainMenuMap
+[2025.06.09-15.50.47:485][  0]LogSlate: Took 0.000564 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2025.06.09-15.50.47:487][  0]LogSlate: Took 0.001060 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2025.06.09-15.50.47:496][  0]LogSlate: Took 0.008778 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.ufont' (3848K)
+[2025.06.09-15.50.48:123][  0]LogSlate: Took 0.000734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.06.09-15.50.48:512][  0]LogRHI: Display: Encountered a new graphics PSO: 3127996757
+[2025.06.09-15.50.48:525][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2025.06.09-15.50.48:525][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=190332, PathHashSize=16, EntriesSize=32752, TotalSize=223100
+[2025.06.09-15.50.48:525][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2025.06.09-15.50.48:525][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2025.06.09-15.50.48:533][  0]LogRHI: Display: Encountered a new graphics PSO: 4257995206
+[2025.06.09-15.50.48:533][  0]LogRHI: Display: Encountered a new graphics PSO: 2406479667
+[2025.06.09-15.50.48:533][  0]LogRHI: Display: Encountered a new compute PSO: 4175915472
+[2025.06.09-15.50.48:536][  0]LogRHI: Display: Encountered a new graphics PSO: 4287528555
+[2025.06.09-15.50.48:544][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.06.09-15.50.48:544][  0]LogLoad: (Engine Initialization) Total time: 6.50 seconds
+[2025.06.09-15.50.48:639][  0]LogRHI: Display: Encountered a new graphics PSO: 3461925011
+[2025.06.09-15.50.48:640][  0]LogRHI: Display: Encountered a new graphics PSO: 2094147047
+[2025.06.09-15.50.48:684][  0]LogPSOHitching: Encountered 50 PSO creation hitches so far (5 graphics, 45 compute). 0 of them were precached.
+[2025.06.09-15.50.48:739][  0]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.06.09-15.50.48:816][  0]LogRHI: Display: Encountered a new graphics PSO: 1444787699
+[2025.06.09-15.50.48:816][  0]LogRHI: Display: Encountered a new graphics PSO: 3432324015
+[2025.06.09-15.50.48:816][  0]LogRHI: Display: Encountered a new graphics PSO: 1964305719
+[2025.06.09-15.50.48:816][  0]LogRHI: Display: Encountered a new graphics PSO: 3400350141
+[2025.06.09-15.50.48:841][  0]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.06.09-15.50.48:890][  0]LogRHI: Display: Encountered a new graphics PSO: 257195009
+[2025.06.09-15.50.49:020][  0]LogPSOHitching: Encountered 100 PSO creation hitches so far (12 graphics, 88 compute). 0 of them were precached.
+[2025.06.09-15.50.49:130][  0]LogRHI: Display: Encountered a new graphics PSO: 1749019232
+[2025.06.09-15.50.49:324][  0]LogRHI: Display: Encountered a new graphics PSO: 592338105
+[2025.06.09-15.50.49:644][  0]LogPSOHitching: Encountered 150 PSO creation hitches so far (15 graphics, 135 compute). 0 of them were precached.
+[2025.06.09-15.50.49:927][  0]LogRHI: Display: Encountered a new graphics PSO: 2842939906
+[2025.06.09-15.50.49:927][  0]LogRHI: Display: Encountered a new graphics PSO: 1446925621
+[2025.06.09-15.50.49:927][  0]LogRHI: Display: Encountered a new graphics PSO: 3441735275
+[2025.06.09-15.50.49:927][  0]LogRHI: Display: Encountered a new graphics PSO: 3263951767
+[2025.06.09-15.50.49:927][  0]LogRHI: Display: Encountered a new compute PSO: 2182077875
+[2025.06.09-15.50.49:927][  0]LogRHI: Display: Encountered a new graphics PSO: 2400923095
+[2025.06.09-15.50.49:927][  0]LogRHI: Display: Encountered a new graphics PSO: 3316590291
+[2025.06.09-15.50.49:928][  0]LogRHI: Display: Encountered a new graphics PSO: 2456054138
+[2025.06.09-15.50.49:928][  0]LogRHI: Display: Encountered a new graphics PSO: 1741547207
+[2025.06.09-15.50.50:125][  0]LogRHI: Display: Encountered a new graphics PSO: 834665915
+[2025.06.09-15.50.50:125][  0]LogRHI: Display: Encountered a new graphics PSO: 1004208946
+[2025.06.09-15.50.50:125][  0]LogRHI: Display: Encountered a new graphics PSO: 2465803699
+[2025.06.09-15.50.50:125][  0]LogRHI: Display: Encountered a new graphics PSO: 3731007822
+[2025.06.09-15.50.50:125][  0]LogRHI: Display: Encountered a new graphics PSO: 2854052743
+[2025.06.09-15.50.50:126][  0]LogRHI: Display: Encountered a new graphics PSO: 4140536553
+[2025.06.09-15.50.50:126][  0]LogRHI: Display: Encountered a new graphics PSO: 4260210514
+[2025.06.09-15.50.50:126][  0]LogRHI: Display: Encountered a new graphics PSO: 2566878780
+[2025.06.09-15.50.50:127][  0]LogRHI: Display: Encountered a new graphics PSO: 2210069036
+[2025.06.09-15.50.50:127][  0]LogRHI: Display: Encountered a new graphics PSO: 2659818444
+[2025.06.09-15.50.50:127][  0]LogRHI: Display: Encountered a new graphics PSO: 4115009757
+[2025.06.09-15.50.50:128][  0]LogRHI: Display: Encountered a new graphics PSO: 1652018006
+[2025.06.09-15.50.50:128][  0]LogRHI: Display: Encountered a new graphics PSO: 931589751
+[2025.06.09-15.50.50:130][  0]LogRHI: Display: Encountered a new graphics PSO: 3160949730
+[2025.06.09-15.50.50:476][  0]LogPSOHitching: Encountered 200 PSO creation hitches so far (32 graphics, 168 compute). 0 of them were precached.
+[2025.06.09-15.50.50:568][  0]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.06.09-15.50.51:164][  0]LogRHI: Display: Encountered a new graphics PSO: 1174220289
+[2025.06.09-15.50.51:168][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.06.09-15.50.51:168][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.06.09-15.50.51:171][  0]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Epiphany'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.06.09-15.50.51:175][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-15.50.51:176][  0]LogTrace: Display: Display Control listening on port 34075
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 4138595354
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 989834995
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 1609400221
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 1503367789
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 4241033875
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 426811631
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 836344648
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 1151923085
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 4266470449
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 844372348
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 2774909687
+[2025.06.09-15.50.52:961][  2]LogRHI: Display: Encountered a new graphics PSO: 1829726758
+[2025.06.09-15.50.55:144][ 26]LogRHI: Display: Encountered a new graphics PSO: 1813214286
+[2025.06.09-15.50.55:144][ 26]LogRHI: Display: Encountered a new graphics PSO: 3998340595
+[2025.06.09-15.50.55:144][ 26]LogRHI: Display: Encountered a new graphics PSO: 2681323088
+[2025.06.09-15.50.55:144][ 26]LogRHI: Display: Encountered a new graphics PSO: 4208628807
+[2025.06.09-15.50.55:144][ 26]LogRHI: Display: Encountered a new graphics PSO: 2110643698
+[2025.06.09-15.50.55:144][ 26]LogRHI: Display: Encountered a new graphics PSO: 147391968
+[2025.06.09-15.50.55:144][ 26]LogRHI: Display: Encountered a new graphics PSO: 2634339502
+[2025.06.09-15.50.55:231][ 27]LogPSOHitching: Encountered 250 PSO creation hitches so far (41 graphics, 209 compute). 0 of them were precached.
+[2025.06.09-15.50.55:689][ 49]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.06.09-15.50.55:789][ 55]LogD3D12RHI: Waited for PSO creation for 200.000000ms
+[2025.06.09-15.50.59:374][185]LogRHI: Display: Encountered a new graphics PSO: 1700200558
+[2025.06.09-15.50.59:374][185]LogRHI: Display: Encountered a new graphics PSO: 2912401517
+[2025.06.09-15.50.59:875][194]LogRHI: Display: Encountered a new graphics PSO: 3554480225
+[2025.06.09-15.51.00:376][195]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.09-15.51.19:813][632]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.06.09-15.51.23:657][888]LogGlobalStatus: UEngine::Browse Started Browse: "127.0.0.1:8888/Game/Maps/MainMenuMap"
+[2025.06.09-15.51.23:657][888]LogNet: Browse: 127.0.0.1:8888/Game/Maps/MainMenuMap
+[2025.06.09-15.51.23:657][888]LogCsvProfiler: Display: Metadata set : iris="0"
+[2025.06.09-15.51.23:657][888]LogNet: InitBase PendingNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.06.09-15.51.23:657][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.06.09-15.51.23:658][888]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.06.09-15.51.23:659][888]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2025.06.09-15.51.23:659][888]LogNet: Created socket for bind address: 0.0.0.0:0
+[2025.06.09-15.51.23:659][888]LogNet: IpConnection_2147482349 setting maximum channels to: 32767
+[2025.06.09-15.51.23:660][888]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.06.09-15.51.23:661][888]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 4
+[2025.06.09-15.51.23:661][888]LogNet: Game client on port 8888, rate 100000
+[2025.06.09-15.51.23:661][888]LogNetVersion: BattleRogue 1.0.0.0, NetCL: 0, EngineNetworkVersion: 36, GameNetworkVersion: 0 (Checksum: 4076821304)
+[2025.06.09-15.51.24:691][957]LogHandshake: Cached server SessionID: 0
+[2025.06.09-15.51.24:692][957]LogHandshake: SendChallengeResponse. Timestamp: 43.797575, Cookie: 172067251031224100172254155175118240082070212021029147249149
+[2025.06.09-15.51.24:722][959]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:8888, Name: IpConnection_2147482349, Driver: Name:PendingNetDriver Def:GameNetDriver IpNetDriver_2147482412, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2025.06.09-15.51.24:753][961]LogNet: Welcomed by server (Level: /Game/Maps/ArenaMap, Game: /Game/Blueprints/Core/BP_GameMode_Main.BP_GameMode_Main_C)
+[2025.06.09-15.51.24:754][961]LogLoad: LoadMap: 127.0.0.1:8888/Game/Maps/ArenaMap?game=/Game/Blueprints/Core/BP_GameMode_Main.BP_GameMode_Main_C
+[2025.06.09-15.51.24:754][961]LogWorld: BeginTearingDown for /Game/Maps/MainMenuMap
+[2025.06.09-15.51.24:760][961]LogWorld: UWorld::CleanupWorld for MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.06.09-15.51.24:761][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-15.51.24:761][961]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/MainMenuMap.MainMenuMap
+[2025.06.09-15.51.24:794][961]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.09-15.51.24:813][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.06.09-15.51.24:824][961]LogStreaming: Display: FlushAsyncLoading(120): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.09-15.51.25:011][961]LogAudio: Display: Audio Device (ID: 1) registered with world 'ArenaMap'.
+[2025.06.09-15.51.25:011][961]LogChaosDD: Creating Chaos Debug Draw Scene for world ArenaMap
+[2025.06.09-15.51.25:014][961]LogWorldPartition: ULevel::OnLevelLoaded(ArenaMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.09-15.51.25:014][961]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.09-15.51.25:014][961]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/ArenaMap.ArenaMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.09-15.51.25:014][961]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Client, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.09-15.51.25:014][961]LogWorldPartition: Display: WorldPartition initialize took 121 us (total: 277 us)
+[2025.06.09-15.51.25:072][961]LogWorld: Bringing World /Game/Maps/ArenaMap.ArenaMap up for play (max tick rate 0) at 2025.06.10-00.51.25
+[2025.06.09-15.51.25:141][961]LogWorld: Bringing up level for play took: 0.127430
+[2025.06.09-15.51.25:142][961]LogLoad: Took 0.388277 seconds to LoadMap(/Game/Maps/ArenaMap)
+[2025.06.09-15.51.25:142][961]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/ArenaMap
+[2025.06.09-15.51.25:142][961]LogGlobalStatus: UPendingNetGame::TravelCompleted Pending net game travel completed
+[2025.06.09-15.51.25:167][962]LogRHI: Display: Encountered a new graphics PSO: 3472837656
+[2025.06.09-15.51.25:269][963]LogScript: Warning: Accessed None trying to read property WaitingWidget
+	BP_MyPlayerController_C /Game/Maps/ArenaMap.ArenaMap:PersistentLevel.BP_MyPlayerController_C_2147482292
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController:0EFD
+[2025.06.09-15.51.25:269][963]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:CE_HideWaitingPopup
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+
+[2025.06.09-15.51.25:269][963]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Game_State
+	BP_MyPlayerController_C /Game/Maps/ArenaMap.ArenaMap:PersistentLevel.BP_MyPlayerController_C_2147482292
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController:0F56
+[2025.06.09-15.51.25:269][963]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:CE_HideWaitingPopup
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ShowReadyFightSequence
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+
+[2025.06.09-15.51.25:269][963]LogBlueprintUserMessages: [BP_MyPlayerController_C_2147482292] 0
+[2025.06.09-15.51.25:269][963]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Game_State
+	BP_MyPlayerController_C /Game/Maps/ArenaMap.ArenaMap:PersistentLevel.BP_MyPlayerController_C_2147482292
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController:0FD3
+[2025.06.09-15.51.25:269][963]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:CE_HideWaitingPopup
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ShowReadyFightSequence
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+
+[2025.06.09-15.51.25:272][963]LogRHI: Display: Encountered a new graphics PSO: 2302381354
+[2025.06.09-15.51.25:549][963]LogStreaming: Display: FlushAsyncLoading(164,163,162,161,160,159,158,157,156,155,154,153,152,151,150,149,148,147,146,145,144,143,142,141,140,139,138,137,136,135,134,133,132,131,130,129,128): 0 QueuedPackages, 37 AsyncPackages
+[2025.06.09-15.51.25:667][963]LogBlueprintUserMessages: [ArenaMap_C_1] ArenaMap
+[2025.06.09-15.51.25:686][963]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Last_Stand'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.06.09-15.51.26:043][964]LogRHI: Display: Encountered a new graphics PSO: 1911018763
+[2025.06.09-15.51.30:049][207]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.51.30:049][207]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.51.33:451][419]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.33:451][419]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.33:478][419]LogRHI: Display: Encountered a new graphics PSO: 3121315814
+[2025.06.09-15.51.33:478][419]LogRHI: Display: Encountered a new graphics PSO: 1771866877
+[2025.06.09-15.51.33:478][419]LogRHI: Display: Encountered a new graphics PSO: 1239013904
+[2025.06.09-15.51.33:510][419]LogSlate: Took 0.057023 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.06.09-15.51.38:292][605]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.38:292][605]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.39:764][686]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.39:764][686]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.40:744][754]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.40:744][754]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.41:814][829]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.41:814][829]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.42:823][899]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.42:823][899]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.43:845][970]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.43:845][970]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.45:086][ 58]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.45:086][ 58]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.46:166][135]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.46:166][135]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.47:160][206]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.47:160][206]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.48:820][322]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.51.49:714][384]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.49:714][384]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.50:820][462]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.50:820][462]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.58:932][658]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.58:932][658]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.51.59:868][723]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.51.59:868][723]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.00:944][796]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.52.00:944][796]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.02:029][871]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.52.02:029][871]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.02:988][938]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.52.02:988][938]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.03:921][  3]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.52.03:921][  3]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.04:909][ 72]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.52.04:909][ 72]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.06:028][149]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.52.06:028][149]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.06:040][150]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.52.06:040][150]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.52.06:040][150]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.52.07:726][263]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.103733 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.07:799][265]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.140240 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.07:835][266]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.138474 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.07:870][267]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.134195 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.07:945][269]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.133809 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.07:985][270]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.097541 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.08:018][271]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.095674 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.08:332][273]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.117983 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.09:310][274]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.543506 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.09:810][275]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.440550 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.09:833][277]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.447874 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.10:067][293]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.406652 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.10:348][312]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.408256 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.10:636][332]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.444986 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.11:028][359]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.52.11:028][359]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.52.11:028][359]LogBlueprintUserMessages: [BP_MyPlayerController_C_2147482292] P=0.000000 Y=270.000000 R=0.000000
+[2025.06.09-15.52.11:029][359]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.52.11:029][359]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.52.11:029][359]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.52.11:043][360]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.852328 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.11:061][360]LogRHI: Display: Encountered a new graphics PSO: 3820103937
+[2025.06.09-15.52.11:061][360]LogRHI: Display: Encountered a new graphics PSO: 3583736902
+[2025.06.09-15.52.11:062][360]LogRHI: Display: Encountered a new graphics PSO: 2030652053
+[2025.06.09-15.52.12:113][420]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763797 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:148][421]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763034 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:222][423]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.783530 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:269][424]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.784858 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:349][426]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.778908 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:388][427]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.775960 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:429][428]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.778205 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:468][429]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.776881 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:545][431]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.776170 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:583][432]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.774084 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:621][433]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.773629 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:695][435]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.806553 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:735][436]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.765845 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:774][437]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.767129 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:853][439]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.769522 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:929][441]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.806244 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.12:967][442]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764405 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:006][443]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.766396 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:044][444]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764401 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:082][445]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764870 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:120][446]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764841 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:197][448]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762597 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:276][450]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762010 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:312][451]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761741 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:387][453]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.798218 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:428][454]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761754 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:502][456]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.758604 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:540][457]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.759456 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:579][458]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.760718 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:653][460]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.795880 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:690][461]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.795547 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:733][462]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761042 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:770][463]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.759191 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:810][464]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761658 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:885][466]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.798934 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:923][467]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.797965 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:962][468]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.760250 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.13:995][469]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.755994 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:034][470]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.756295 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:071][471]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.751902 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:110][472]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.754073 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:187][474]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.793914 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:230][475]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761018 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:307][477]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.760643 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:344][478]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761430 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:420][480]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.799433 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:461][481]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764030 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:536][483]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.759469 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:612][485]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761155 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:652][486]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763764 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:728][488]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761928 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:805][490]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761474 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:885][492]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763483 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.14:963][494]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764970 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:003][495]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762421 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:078][497]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762202 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:118][498]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764292 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:195][500]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763662 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:233][501]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762750 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:272][502]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762860 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:312][503]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763416 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:349][504]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763739 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:428][506]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.802985 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:465][507]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762522 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:504][508]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.760364 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:541][509]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761222 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:620][511]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763687 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:697][513]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764445 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:772][515]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762529 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:810][516]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761537 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:847][517]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761741 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:887][518]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762724 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.15:925][519]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.762441 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:001][521]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.799399 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:042][522]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761089 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:080][523]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764273 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:119][524]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764971 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:195][526]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.765781 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:273][528]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.764264 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:312][529]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763374 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:349][530]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.763004 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:386][531]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.761013 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:425][532]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.760732 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:503][534]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.800147 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:541][535]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.759841 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.16:578][536]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.758793 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.17:187][552]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.784934 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.17:802][568]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.771590 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.18:416][584]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.768017 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.19:645][616]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 1.792690 > MaxSimulationTimeStep (0.050) for 'BP_X_Bot_C_2147482228', movement 'Walking'
+[2025.06.09-15.52.21:024][652]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.52.21:024][652]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.52.21:024][652]LogBlueprintUserMessages: [BP_MyPlayerController_C_2147482292] 1
+[2025.06.09-15.52.35:547][404]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.52.35:547][404]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.37:043][506]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.52.37:043][506]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.38:053][573]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.52.38:053][573]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.52.41:046][773]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.52.41:310][791]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.52.41:560][808]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.52.41:737][820]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.52.41:957][835]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.52.42:208][852]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.52.42:369][863]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.52.43:409][931]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.52.43:612][945]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.52.55:037][ 17]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.52.55:037][ 17]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.52.55:037][ 17]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.52.59:674][165]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.52.59:675][165]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.52.59:675][165]LogBlueprintUserMessages: [BP_MyPlayerController_C_2147482292] P=0.000000 Y=270.000000 R=0.000000
+[2025.06.09-15.52.59:675][165]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.52.59:675][165]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.52.59:675][165]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.53.09:678][657]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.53.09:678][657]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.53.09:678][657]LogBlueprintUserMessages: [BP_MyPlayerController_C_2147482292] 2
+[2025.06.09-15.53.15:974][ 77]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.53.15:974][ 77]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.53.17:038][152]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.53.17:038][152]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.53.17:966][219]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.53.17:966][219]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.53.19:063][299]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.53.19:063][299]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.53.20:119][376]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.53.20:119][376]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.53.21:157][451]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.53.21:157][451]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.53.22:069][518]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.53.22:069][518]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.53.23:037][589]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.53.23:037][589]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.53.23:983][658]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] BP_X_Bot_C_2147482228
+[2025.06.09-15.53.23:983][658]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] 펀치 캐스팅 OK
+[2025.06.09-15.53.24:982][732]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.53.25:132][743]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.53.25:309][756]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.53.25:460][767]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.53.25:596][777]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.53.25:773][790]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.53.25:908][800]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.53.26:044][810]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.53.27:768][908]LogBlueprintUserMessages: [BP_X_Bot_C_2147482285] T pressed
+[2025.06.09-15.53.38:605][ 34]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.53.38:605][ 34]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.53.38:605][ 34]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.53.40:454][ 35]LogRHI: Display: Encountered a new graphics PSO: 183354828
+[2025.06.09-15.53.40:454][ 35]LogRHI: Display: Encountered a new graphics PSO: 1039585794
+[2025.06.09-15.53.43:446][ 39]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.53.43:446][ 39]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.53.43:447][ 39]LogBlueprintUserMessages: [BP_MyPlayerController_C_2147482292] P=0.000000 Y=270.000000 R=0.000000
+[2025.06.09-15.53.43:448][ 39]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.53.43:448][ 39]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.53.43:448][ 39]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.53.53:194][121]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.53.53:194][121]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.53.53:194][121]LogScript: Warning: Script Msg: The widget 'WBP_MatchEnd_C_2147482144' was already added to the screen.
+[2025.06.09-15.53.53:194][121]LogScript: Warning: Script Msg called by: BP_MyPlayerController_C /Game/Maps/ArenaMap.ArenaMap:PersistentLevel.BP_MyPlayerController_C_2147482292
+[2025.06.09-15.53.53:194][121]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.53.53:194][121]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.53.53:194][121]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.53.56:851][287]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/MainMenuMap"
+[2025.06.09-15.53.56:851][287]LogNet: Browse: /Game/Maps/MainMenuMap
+[2025.06.09-15.53.56:851][287]LogLoad: LoadMap: /Game/Maps/MainMenuMap
+[2025.06.09-15.53.56:851][287]LogWorld: BeginTearingDown for /Game/Maps/ArenaMap
+[2025.06.09-15.53.56:851][287]LogNet: World NetDriver shutdown IpNetDriver_2147482412 [GameNetDriver]
+[2025.06.09-15.53.56:851][287]LogNet: DestroyNamedNetDriver IpNetDriver_2147482412 [GameNetDriver]
+[2025.06.09-15.53.56:851][287]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:8888, Name: IpConnection_2147482349, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482412, IsServer: NO, PC: BP_MyPlayerController_C_2147482292, Owner: BP_MyPlayerController_C_2147482292, UniqueId: NULL:DESKTOP-PQL3MS0-C9D9CECE436D797539F205B37C27588C, Channels: 56, Time: 2025.06.09-15.53.56
+[2025.06.09-15.53.56:851][287]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:8888, Name: IpConnection_2147482349, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482412, IsServer: NO, PC: BP_MyPlayerController_C_2147482292, Owner: BP_MyPlayerController_C_2147482292, UniqueId: NULL:DESKTOP-PQL3MS0-C9D9CECE436D797539F205B37C27588C
+[2025.06.09-15.53.56:852][287]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482412 shut down
+[2025.06.09-15.53.56:854][287]LogWorld: UWorld::CleanupWorld for ArenaMap, bSessionEnded=true, bCleanupResources=true
+[2025.06.09-15.53.56:854][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-15.53.56:854][287]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/ArenaMap.ArenaMap
+[2025.06.09-15.53.56:893][287]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.09-15.53.56:906][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.06.09-15.53.56:913][287]LogStreaming: Display: FlushAsyncLoading(165): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.09-15.53.56:925][287]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuMap'.
+[2025.06.09-15.53.56:925][287]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuMap
+[2025.06.09-15.53.56:926][287]LogWorldPartition: ULevel::OnLevelLoaded(MainMenuMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.09-15.53.56:926][287]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.09-15.53.56:926][287]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/MainMenuMap.MainMenuMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.09-15.53.56:926][287]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.09-15.53.56:926][287]LogWorldPartition: Display: WorldPartition initialize took 71 us (total: 348 us)
+[2025.06.09-15.53.56:926][287]LogLoad: Game class is 'BP_MenuMode_C'
+[2025.06.09-15.53.56:927][287]LogWorld: Bringing World /Game/Maps/MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2025.06.10-00.53.56
+[2025.06.09-15.53.56:927][287]LogWorld: Bringing up level for play took: 0.001184
+[2025.06.09-15.53.56:927][287]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.09-15.53.56:928][287]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning: Performance warning: Many (500) failed FindConsoleObject() across all CVars. Fail counts per name:
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    TestNameB : 2
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    TestNameD : 2
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    TestNameE : 2
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    TestNameA : 2
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    TestNameC : 1
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    r.Nanite.RequireDX12 : 1
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    r.BasePassOutputsVelocityDebug : 1
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    r.Water.WaterInfo.RenderMethod : 486
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    vr.HiddenAreaMask : 1
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    p.MaxPhysicsDeltaTime : 1
+[2025.06.09-15.53.56:951][287]LogConsoleManager: Warning:    Open : 1
+[2025.06.09-15.53.57:054][287]LogLoad: Took 0.203090 seconds to LoadMap(/Game/Maps/MainMenuMap)
+[2025.06.09-15.53.57:054][287]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/MainMenuMap
+[2025.06.09-15.53.57:060][287]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Epiphany'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.06.09-15.54.11:288][648]LogGlobalStatus: UEngine::Browse Started Browse: "127.0.0.1:8888/Game/Maps/MainMenuMap"
+[2025.06.09-15.54.11:288][648]LogNet: Browse: 127.0.0.1:8888/Game/Maps/MainMenuMap
+[2025.06.09-15.54.11:288][648]LogNet: InitBase PendingNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.06.09-15.54.11:288][648]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.06.09-15.54.11:288][648]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2025.06.09-15.54.11:288][648]LogNet: Created socket for bind address: 0.0.0.0:0
+[2025.06.09-15.54.11:288][648]LogNet: IpConnection_2147481968 setting maximum channels to: 32767
+[2025.06.09-15.54.11:288][648]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.06.09-15.54.11:289][648]LogHandshake: Stateless Handshake: NetDriverDefinition 'GameNetDriver' CachedClientID: 5
+[2025.06.09-15.54.11:289][648]LogNet: Game client on port 8888, rate 100000
+[2025.06.09-15.54.12:315][719]LogHandshake: Cached server SessionID: 0
+[2025.06.09-15.54.12:315][719]LogHandshake: SendChallengeResponse. Timestamp: 211.423947, Cookie: 005124159131134159209100098191097181207012032004215233062075
+[2025.06.09-15.54.12:345][721]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:8888, Name: IpConnection_2147481968, Driver: Name:PendingNetDriver Def:GameNetDriver IpNetDriver_2147482031, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2025.06.09-15.54.12:418][726]LogNet: Welcomed by server (Level: /Game/Maps/ArenaMap, Game: /Game/Blueprints/Core/BP_GameMode_Main.BP_GameMode_Main_C)
+[2025.06.09-15.54.12:418][726]LogLoad: LoadMap: 127.0.0.1:8888/Game/Maps/ArenaMap?game=/Game/Blueprints/Core/BP_GameMode_Main.BP_GameMode_Main_C
+[2025.06.09-15.54.12:418][726]LogWorld: BeginTearingDown for /Game/Maps/MainMenuMap
+[2025.06.09-15.54.12:422][726]LogWorld: UWorld::CleanupWorld for MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.06.09-15.54.12:422][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-15.54.12:422][726]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/MainMenuMap.MainMenuMap
+[2025.06.09-15.54.12:474][726]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.09-15.54.12:480][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.06.09-15.54.12:488][726]LogStreaming: Display: FlushAsyncLoading(210): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.09-15.54.12:588][726]LogAudio: Display: Audio Device (ID: 1) registered with world 'ArenaMap'.
+[2025.06.09-15.54.12:588][726]LogChaosDD: Creating Chaos Debug Draw Scene for world ArenaMap
+[2025.06.09-15.54.12:590][726]LogWorldPartition: ULevel::OnLevelLoaded(ArenaMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.09-15.54.12:590][726]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.09-15.54.12:590][726]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/ArenaMap.ArenaMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.09-15.54.12:590][726]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Client, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.09-15.54.12:590][726]LogWorldPartition: Display: WorldPartition initialize took 115 us (total: 464 us)
+[2025.06.09-15.54.12:630][726]LogWorld: Bringing World /Game/Maps/ArenaMap.ArenaMap up for play (max tick rate 0) at 2025.06.10-00.54.12
+[2025.06.09-15.54.12:672][726]LogWorld: Bringing up level for play took: 0.082050
+[2025.06.09-15.54.12:672][726]LogLoad: Took 0.253890 seconds to LoadMap(/Game/Maps/ArenaMap)
+[2025.06.09-15.54.12:672][726]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/ArenaMap
+[2025.06.09-15.54.12:673][726]LogGlobalStatus: UPendingNetGame::TravelCompleted Pending net game travel completed
+[2025.06.09-15.54.12:723][728]LogScript: Warning: Accessed None trying to read property WaitingWidget
+	BP_MyPlayerController_C /Game/Maps/ArenaMap.ArenaMap:PersistentLevel.BP_MyPlayerController_C_2147481910
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController:0EFD
+[2025.06.09-15.54.12:723][728]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:CE_HideWaitingPopup
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+
+[2025.06.09-15.54.12:723][728]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Game_State
+	BP_MyPlayerController_C /Game/Maps/ArenaMap.ArenaMap:PersistentLevel.BP_MyPlayerController_C_2147481910
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController:0F56
+[2025.06.09-15.54.12:723][728]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:CE_HideWaitingPopup
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ShowReadyFightSequence
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+
+[2025.06.09-15.54.12:723][728]LogBlueprintUserMessages: [BP_MyPlayerController_C_2147481910] 0
+[2025.06.09-15.54.12:723][728]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsBP_Game_State
+	BP_MyPlayerController_C /Game/Maps/ArenaMap.ArenaMap:PersistentLevel.BP_MyPlayerController_C_2147481910
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController:0FD3
+[2025.06.09-15.54.12:723][728]LogScript: Warning: Script call stack:
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:CE_HideWaitingPopup
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ShowReadyFightSequence
+	Function /Game/Blueprints/Core/BP_MyPlayerController.BP_MyPlayerController_C:ExecuteUbergraph_BP_MyPlayerController
+
+[2025.06.09-15.54.12:752][728]LogStreaming: Display: FlushAsyncLoading(254,253,252,251,250,249,248,247,246,245,244,243,242,241,240,239,238,237,236,235,234,233,232,231,230,229,228,227,226,225,224,223,222,221,220,219): 0 QueuedPackages, 36 AsyncPackages
+[2025.06.09-15.54.13:080][729]LogBlueprintUserMessages: [ArenaMap_C_1] ArenaMap
+[2025.06.09-15.54.13:088][729]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Last_Stand'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.06.09-15.54.17:201][996]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.54.17:201][996]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.54.19:966][183]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] 
+[2025.06.09-15.54.19:966][183]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] 펀치 캐스팅 실패
+[2025.06.09-15.54.21:032][261]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] BP_X_Bot_C_2147481898
+[2025.06.09-15.54.21:032][261]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] 펀치 캐스팅 OK
+[2025.06.09-15.54.22:090][338]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] BP_X_Bot_C_2147481898
+[2025.06.09-15.54.22:090][338]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] 펀치 캐스팅 OK
+[2025.06.09-15.54.23:049][409]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] BP_X_Bot_C_2147481898
+[2025.06.09-15.54.23:049][409]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] 펀치 캐스팅 OK
+[2025.06.09-15.54.23:698][457]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.23:896][472]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.24:049][483]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.24:183][493]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.24:331][504]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.24:491][516]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.24:625][526]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.24:773][537]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.25:539][593]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.25:728][607]LogBlueprintUserMessages: [BP_X_Bot_C_2147481903] T pressed
+[2025.06.09-15.54.25:741][608]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.54.25:741][608]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.54.25:741][608]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.54.31:627][714]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.54.31:627][714]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.54.31:627][714]LogBlueprintUserMessages: [BP_MyPlayerController_C_2147481910] P=0.000000 Y=270.000000 R=0.000000
+[2025.06.09-15.54.31:627][714]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.54.31:627][714]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.54.31:627][714]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.54.41:336][732]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.06.09-15.54.41:336][732]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.06.09-15.54.41:336][732]LogScript: Warning: Script Msg: The widget 'WBP_MatchEnd_C_2147481781' was already added to the screen.
+[2025.06.09-15.54.41:336][732]LogScript: Warning: Script Msg called by: BP_MyPlayerController_C /Game/Maps/ArenaMap.ArenaMap:PersistentLevel.BP_MyPlayerController_C_2147481910
+[2025.06.09-15.54.41:336][732]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(968)]!
+[2025.06.09-15.54.41:336][732]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.09-15.54.41:336][732]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.06.09-15.54.43:596][812]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Maps/MainMenuMap"
+[2025.06.09-15.54.43:596][812]LogNet: Browse: /Game/Maps/MainMenuMap
+[2025.06.09-15.54.43:596][812]LogLoad: LoadMap: /Game/Maps/MainMenuMap
+[2025.06.09-15.54.43:596][812]LogWorld: BeginTearingDown for /Game/Maps/ArenaMap
+[2025.06.09-15.54.43:596][812]LogNet: World NetDriver shutdown IpNetDriver_2147482031 [GameNetDriver]
+[2025.06.09-15.54.43:596][812]LogNet: DestroyNamedNetDriver IpNetDriver_2147482031 [GameNetDriver]
+[2025.06.09-15.54.43:596][812]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:8888, Name: IpConnection_2147481968, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482031, IsServer: NO, PC: BP_MyPlayerController_C_2147481910, Owner: BP_MyPlayerController_C_2147481910, UniqueId: NULL:DESKTOP-PQL3MS0-C9D9CECE436D797539F205B37C27588C, Channels: 56, Time: 2025.06.09-15.54.43
+[2025.06.09-15.54.43:596][812]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:8888, Name: IpConnection_2147481968, Driver: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482031, IsServer: NO, PC: BP_MyPlayerController_C_2147481910, Owner: BP_MyPlayerController_C_2147481910, UniqueId: NULL:DESKTOP-PQL3MS0-C9D9CECE436D797539F205B37C27588C
+[2025.06.09-15.54.43:597][812]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2147482031 shut down
+[2025.06.09-15.54.43:599][812]LogWorld: UWorld::CleanupWorld for ArenaMap, bSessionEnded=true, bCleanupResources=true
+[2025.06.09-15.54.43:599][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-15.54.43:599][812]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/ArenaMap.ArenaMap
+[2025.06.09-15.54.43:644][812]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.09-15.54.43:654][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.06.09-15.54.43:661][812]LogStreaming: Display: FlushAsyncLoading(255): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.09-15.54.43:672][812]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuMap'.
+[2025.06.09-15.54.43:672][812]LogChaosDD: Creating Chaos Debug Draw Scene for world MainMenuMap
+[2025.06.09-15.54.43:673][812]LogWorldPartition: ULevel::OnLevelLoaded(MainMenuMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.06.09-15.54.43:673][812]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.06.09-15.54.43:673][812]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Maps/MainMenuMap.MainMenuMap, World Type = Game, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 1, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.06.09-15.54.43:673][812]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.06.09-15.54.43:673][812]LogWorldPartition: Display: WorldPartition initialize took 61 us (total: 525 us)
+[2025.06.09-15.54.43:673][812]LogLoad: Game class is 'BP_MenuMode_C'
+[2025.06.09-15.54.43:675][812]LogWorld: Bringing World /Game/Maps/MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2025.06.10-00.54.43
+[2025.06.09-15.54.43:675][812]LogWorld: Bringing up level for play took: 0.001212
+[2025.06.09-15.54.43:675][812]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2025.06.09-15.54.43:675][812]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2025.06.09-15.54.43:801][812]LogLoad: Took 0.205626 seconds to LoadMap(/Game/Maps/MainMenuMap)
+[2025.06.09-15.54.43:801][812]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Maps/MainMenuMap
+[2025.06.09-15.54.43:807][812]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'Epiphany'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2025.06.09-15.54.47:819][899]LogSlate: Request Window 'BattleRogue (64-bit Development PCD3D_SM6) ' being destroyed
+[2025.06.09-15.54.47:820][899]LogSlate: Window 'BattleRogue (64-bit Development PCD3D_SM6) ' being destroyed
+[2025.06.09-15.54.47:823][899]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.06.09-15.54.47:852][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.09-15.54.47:852][899]LogEngine: All Windows Closed
+[2025.06.09-15.54.47:852][899]LogWindows: FPlatformMisc::RequestExit(0, UGameEngine::Tick.ViewportClosed)
+[2025.06.09-15.54.47:852][899]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0, UGameEngine::Tick.ViewportClosed)
+[2025.06.09-15.54.47:852][899]LogCore: Engine exit requested (reason: Win RequestExit)
+[2025.06.09-15.54.47:866][900]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.06.09-15.54.47:868][900]LogInit: Display: PreExit Game.
+[2025.06.09-15.54.47:869][900]LogWorld: BeginTearingDown for /Game/Maps/MainMenuMap
+[2025.06.09-15.54.47:872][900]LogWorld: UWorld::CleanupWorld for MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2025.06.09-15.54.47:872][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.09-15.54.47:872][900]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Maps/MainMenuMap.MainMenuMap
+[2025.06.09-15.54.48:823][900]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.06.09-15.54.48:823][900]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.06.09-15.54.48:823][900]LogAudio: Display: Audio Device unregistered from world 'MainMenuMap'.
+[2025.06.09-15.54.48:823][900]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.06.09-15.54.48:859][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.06.09-15.54.48:860][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.06.09-15.54.48:864][900]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.06.09-15.54.48:865][900]LogAudio: Display: Audio Device Manager Shutdown
+[2025.06.09-15.54.48:866][900]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.06.09-15.54.48:867][900]LogExit: Preparing to exit.
+[2025.06.09-15.54.48:867][900]LogMoviePlayer: Shutting down movie player
+[2025.06.09-15.54.48:888][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.09-15.54.48:891][900]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.06.09-15.54.48:895][900]LogExit: Game engine shut down
+[2025.06.09-15.54.48:963][900]LogExit: Object subsystem successfully closed.
+[2025.06.09-15.54.49:009][900]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.06.09-15.54.49:048][900]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.06.09-15.54.49:048][900]LogNFORDenoise: NFORDenoise function shutting down
+[2025.06.09-15.54.49:049][900]RenderDocPlugin: plugin has been unloaded.
+[2025.06.09-15.54.49:051][900]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.06.09-15.54.49:051][900]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.06.09-15.54.49:051][900]LogPakFile: Destroying PakPlatformFile
+[2025.06.09-15.54.49:735][900]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.06.09-15.54.49:746][900]LogExit: Exiting.
+[2025.06.09-15.54.49:762][900]Log file closed, 06/10/25 00:54:49

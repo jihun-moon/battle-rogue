@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>3360C9E4426CD0E45F60A9BD3DA92DBF</ExecutionGuid>
+<CrashGUID>UECC-Windows-7FF277C64FF89A09806859A39CA74131_0000</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: !World-&gt;bIsTearingDown  [File:E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\UMG\Private\UserWidget.cpp] [Line: 2484] 
+Widget Class WBP_ReadyFight_C - Attempting to be created while tearing down the world &apos;ArenaMap&apos;
+Stack: 
+0x00007ff63262e0c4 BattleRogue.exe!`UUserWidget::CreateInstanceInternal&apos;::`8&apos;::&lt;lambda_1&gt;::operator()() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\UMG\Private\UserWidget.cpp:2484]
+0x00007ff62b4dace8 BattleRogue.exe!UUserWidget::CreateInstanceInternal() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\UMG\Private\UserWidget.cpp:2488]
+0x00007ff62b4db726 BattleRogue.exe!UUserWidget::CreateWidgetInstance() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\UMG\Private\UserWidget.cpp:2442]
+0x00007ff62b416436 BattleRogue.exe!CreateWidget&lt;UUserWidget,APlayerController *&gt;() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\UMG\Public\Blueprint\UserWidget.h:1718]
+0x00007ff62b51136d BattleRogue.exe!UWidgetBlueprintLibrary::execCreate() [C:\Users\PC\Desktop\BattleRogue\Intermediate\Build\Win64\BattleRogue\Inc\UMG\UHT\WidgetBlueprintLibrary.gen.cpp:358]
+0x00007ff6269e3cb9 BattleRogue.exe!UFunction::Invoke() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:7193]
+0x00007ff626ca6bc0 BattleRogue.exe!UObject::CallFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1148]
+0x00007ff626cb95dd BattleRogue.exe!UObject::ProcessContextOpcode() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:3117]
+0x00007ff626ce9ca0 BattleRogue.exe!UObject::execLetObj() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:2905]
+0x00007ff626cbc048 BattleRogue.exe!ProcessLocalScriptFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1214]
+0x00007ff626c94bd9 BattleRogue.exe!ProcessScriptFunction&lt;void (__cdecl*)(UObject *,FFrame &amp;,void *)&gt;() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1043]
+0x00007ff626c9d601 BattleRogue.exe!`ProcessLocalFunction&apos;::`2&apos;::&lt;lambda_1&gt;::operator()() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1288]
+0x00007ff626cbbc53 BattleRogue.exe!ProcessLocalFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1304]
+0x00007ff626cbc048 BattleRogue.exe!ProcessLocalScriptFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1214]
+0x00007ff626cbba03 BattleRogue.exe!UObject::ProcessInternal() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1329]
+0x00007ff626c94bd9 BattleRogue.exe!ProcessScriptFunction&lt;void (__cdecl*)(UObject *,FFrame &amp;,void *)&gt;() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1043]
+0x00007ff626ca6bf7 BattleRogue.exe!UObject::CallFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1159]
+0x00007ff626cbc048 BattleRogue.exe!ProcessLocalScriptFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1214]
+0x00007ff626c94bd9 BattleRogue.exe!ProcessScriptFunction&lt;void (__cdecl*)(UObject *,FFrame &amp;,void *)&gt;() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1043]
+0x00007ff626c9d601 BattleRogue.exe!`ProcessLocalFunction&apos;::`2&apos;::&lt;lambda_1&gt;::operator()() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1288]
+0x00007ff626cbbc53 BattleRogue.exe!ProcessLocalFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1304]
+0x00007ff626cbc048 BattleRogue.exe!ProcessLocalScriptFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1214]
+0x00007ff626cbba03 BattleRogue.exe!UObject::ProcessInternal() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1329]
+0x00007ff626c94bd9 BattleRogue.exe!ProcessScriptFunction&lt;void (__cdecl*)(UObject *,FFrame &amp;,void *)&gt;() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1043]
+0x00007ff626ca6bf7 BattleRogue.exe!UObject::CallFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1159]
+0x00007ff626cb95dd BattleRogue.exe!UObject::ProcessContextOpcode() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:3117]
+0x00007ff626cbc048 BattleRogue.exe!ProcessLocalScriptFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1214]
+0x00007ff626c94bd9 BattleRogue.exe!ProcessScriptFunction&lt;void (__cdecl*)(UObject *,FFrame &amp;,void *)&gt;() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1043]
+0x00007ff626c9d601 BattleRogue.exe!`ProcessLocalFunction&apos;::`2&apos;::&lt;lambda_1&gt;::operator()() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1288]
+0x00007ff626cbbc53 BattleRogue.exe!ProcessLocalFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1304]
+0x00007ff626cbc048 BattleRogue.exe!ProcessLocalScriptFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1214]
+0x00007ff626c94bd9 BattleRogue.exe!ProcessScriptFunction&lt;void (__cdecl*)(UObject *,FFrame &amp;,void *)&gt;() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1043]
+0x00007ff626c9d601 BattleRogue.exe!`ProcessLocalFunction&apos;::`2&apos;::&lt;lambda_1&gt;::operator()() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1288]
+0x00007ff626cbbc53 BattleRogue.exe!ProcessLocalFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1304]
+0x00007ff626cbc048 BattleRogue.exe!ProcessLocalScriptFunction() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1214]
+0x00007ff626cbba03 BattleRogue.exe!UObject::ProcessInternal() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:1329]
+0x00007ff6269e3cb9 BattleRogue.exe!UFunction::Invoke() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\Class.cpp:7193]
+0x00007ff626cba905 BattleRogue.exe!UObject::ProcessEvent() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\CoreUObject\Private\UObject\ScriptCore.cpp:2175]
+0x00007ff62bf66154 BattleRogue.exe!AActor::ProcessEvent() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\Actor.cpp:1160]
+0x00007ff62c82b3ff BattleRogue.exe!AGameModeBase::Logout() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\GameModeBase.cpp:1062]
+0x00007ff62c5e8819 BattleRogue.exe!AController::Destroyed() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\Controller.cpp:602]
+0x00007ff62caa9313 BattleRogue.exe!UWorld::DestroyActor() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\LevelActor.cpp:888]
+0x00007ff62d5d0ae1 BattleRogue.exe!UEngine::LoadMap() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:15612]
+0x00007ff62d567af4 BattleRogue.exe!UEngine::Browse() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:15154]
+0x00007ff62d60832e BattleRogue.exe!UEngine::TickWorldTravel() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:15352]
+0x00007ff62c846b8d BattleRogue.exe!UGameEngine::Tick() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Engine\Private\GameEngine.cpp:1774]
+0x00007ff62da56a65 BattleRogue.exe!FEngineLoop::Tick() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:5877]
+0x00007ff62da6750c BattleRogue.exe!GuardedMain() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Launch\Private\Launch.cpp:188]
+0x00007ff62da675da BattleRogue.exe!GuardedMainWrapper() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:123]
+0x00007ff62da6a2d2 BattleRogue.exe!LaunchWindowsStartup() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:277]
+0x00007ff62da77204 BattleRogue.exe!WinMain() [E:\UnrealEngine-release\UnrealEngine-release\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:318]
+0x00007ff63233bf7a BattleRogue.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007fff9592e8d7 KERNEL32.DLL!UnknownFunction []
+0x00007fff9683c5dc ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>21656</ProcessId>
+<SecondsSinceStart>24</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>true</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-BattleRogue</GameName>
+<ExecutableName>BattleRogue</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.5.4-0+UE5</EngineVersion>
+<EngineCompatibleVersion>5.5.4-0+UE5</EngineCompatibleVersion>
+<CommandLine> BattleRogue</CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<AppDefaultLocale>ko-KR</AppDefaultLocale>
+<BuildVersion>UE5-CL-0</BuildVersion>
+<Symbols>UE5-CL-0-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/PC/Desktop/Client/Windows/BattleRogue/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/PC/Desktop/Client/Windows/</RootDir>
+<MachineId>6053EC8E413553A3F8317A8BED1C02EB</MachineId>
+<LoginId>6053ec8e413553a3f8317a8bed1c02eb</LoginId>
+<EpicAccountId>51958a316aa84c39ac7df8206e775e97</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1660 SUPER</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (24H2) [10.0.26100.4061]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>17084747776</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>50370744320</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>4128067584</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>19742744576</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>2324914176</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>2325127168</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>4252090368</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>4252090368</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+BattleRogue  0x00007ff624d20000 + d90e0c4         
+BattleRogue  0x00007ff624d20000 + 67bace8         
+BattleRogue  0x00007ff624d20000 + 67bb726         
+BattleRogue  0x00007ff624d20000 + 66f6436         
+BattleRogue  0x00007ff624d20000 + 67f136d         
+BattleRogue  0x00007ff624d20000 + 1cc3cb9         
+BattleRogue  0x00007ff624d20000 + 1f86bc0         
+BattleRogue  0x00007ff624d20000 + 1f995dd         
+BattleRogue  0x00007ff624d20000 + 1fc9ca0         
+BattleRogue  0x00007ff624d20000 + 1f9c048         
+BattleRogue  0x00007ff624d20000 + 1f74bd9         
+BattleRogue  0x00007ff624d20000 + 1f7d601         
+BattleRogue  0x00007ff624d20000 + 1f9bc53         
+BattleRogue  0x00007ff624d20000 + 1f9c048         
+BattleRogue  0x00007ff624d20000 + 1f9ba03         
+BattleRogue  0x00007ff624d20000 + 1f74bd9         
+BattleRogue  0x00007ff624d20000 + 1f86bf7         
+BattleRogue  0x00007ff624d20000 + 1f9c048         
+BattleRogue  0x00007ff624d20000 + 1f74bd9         
+BattleRogue  0x00007ff624d20000 + 1f7d601         
+BattleRogue  0x00007ff624d20000 + 1f9bc53         
+BattleRogue  0x00007ff624d20000 + 1f9c048         
+BattleRogue  0x00007ff624d20000 + 1f9ba03         
+BattleRogue  0x00007ff624d20000 + 1f74bd9         
+BattleRogue  0x00007ff624d20000 + 1f86bf7         
+BattleRogue  0x00007ff624d20000 + 1f995dd         
+BattleRogue  0x00007ff624d20000 + 1f9c048         
+BattleRogue  0x00007ff624d20000 + 1f74bd9         
+BattleRogue  0x00007ff624d20000 + 1f7d601         
+BattleRogue  0x00007ff624d20000 + 1f9bc53         
+BattleRogue  0x00007ff624d20000 + 1f9c048         
+BattleRogue  0x00007ff624d20000 + 1f74bd9         
+BattleRogue  0x00007ff624d20000 + 1f7d601         
+BattleRogue  0x00007ff624d20000 + 1f9bc53         
+BattleRogue  0x00007ff624d20000 + 1f9c048         
+BattleRogue  0x00007ff624d20000 + 1f9ba03         
+BattleRogue  0x00007ff624d20000 + 1cc3cb9         
+BattleRogue  0x00007ff624d20000 + 1f9a905         
+BattleRogue  0x00007ff624d20000 + 7246154         
+BattleRogue  0x00007ff624d20000 + 7b0b3ff         
+BattleRogue  0x00007ff624d20000 + 78c8819         
+BattleRogue  0x00007ff624d20000 + 7d89313         
+BattleRogue  0x00007ff624d20000 + 88b0ae1         
+BattleRogue  0x00007ff624d20000 + 8847af4         
+BattleRogue  0x00007ff624d20000 + 88e832e         
+BattleRogue  0x00007ff624d20000 + 7b26b8d         
+BattleRogue  0x00007ff624d20000 + 8d36a65         
+BattleRogue  0x00007ff624d20000 + 8d4750c         
+BattleRogue  0x00007ff624d20000 + 8d475da         
+BattleRogue  0x00007ff624d20000 + 8d4a2d2         
+BattleRogue  0x00007ff624d20000 + 8d57204         
+BattleRogue  0x00007ff624d20000 + d61bf7a         
+KERNEL32     0x00007fff95900000 + 2e8d7           
+</PCallStack>
+<PCallStackHash>BD6A2481BFF9B51C88780061708BD4326103D971</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformIsRunningWine>false</PlatformIsRunningWine>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<DriveStats.Project.Name>C:/Users/PC/Desktop/Client/Windows/BattleRogue/Binaries/Win64/</DriveStats.Project.Name>
+<DriveStats.Project.Type>SSD</DriveStats.Project.Type>
+<DriveStats.Project.FreeSpaceKb>543677072</DriveStats.Project.FreeSpaceKb>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDMarkersOnly>false</RHI.DREDMarkersOnly>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 1660 SUPER</RHI.AdapterName>
+<RHI.UserDriverVersion>576.52</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>32.0.15.7652</RHI.InternalDriverVersion>
+<RHI.DriverDate>5-14-2025</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>21C4</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
