@@ -2,7 +2,7 @@
 #
 # Original: https://github.com/github/gitignore/blob/main/UnrealEngine.gitignore
 # Visual Studio files
-*.pdb
+*.pdb filter=lfs diff=lfs merge=lfs -text
 *.suo
 *.sln filter=lfs diff=lfs merge=lfs -text
 *.userprefs
@@ -45,3 +45,4 @@ Saved/
 *.docx filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
 assets/** filter=lfs diff=lfs merge=lfs -text
+*.ucas filter=lfs diff=lfs merge=lfs -text
