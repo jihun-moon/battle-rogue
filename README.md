@@ -32,7 +32,7 @@
 
 ## 🖼️ 데모 GIF
 
-\<img src="assets/fighting-game-demo.gif" alt="게임 플레이 데모" width="48%"/\> \<img src="assets/anim-montage-process.gif" alt="애님 몽타주" width="48%"/\>
+<img src="assets/fighting-game-demo.gif" alt="게임 플레이 데모" width="48%"> <img src="assets/anim-montage-process.gif" alt="애님 몽타주" width="48%">
 
 ## 📄 라이선스
 
