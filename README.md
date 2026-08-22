@@ -1,134 +1,158 @@
-<h1 align="center">⚔️ Battle Rogue</h1>
+# Battle Rogue
 
-<p align="center"><em>Unreal Engine 5 로 만든 1:1 온라인 대전 격투 게임 — Dedicated Server 아키텍처 기반.</em></p>
+언리얼 엔진 5로 만든 1대1 온라인 대전 게임입니다. 데디케이티드 서버를 따로 빌드해서 붙였습니다.
 
-<p align="center">
+<p>
+  <img src="https://img.shields.io/badge/Unreal_Engine_5-313131?style=flat-square&logo=unrealengine&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Blueprint-9333EA?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Dedicated_Server-FF6B6B?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Git_LFS-F64935?style=flat-square&logo=gitlfs&logoColor=white"/>
   <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Unreal_Engine-5-313131?style=flat-square&logo=unrealengine&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Blueprints-Visual_Scripting-9333EA?style=flat-square"/>
-  <img src="https://img.shields.io/badge/C%2B%2B-game_logic-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Networking-Dedicated_Server-FF6B6B?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Mode-1v1_PvP-success?style=flat-square"/>
-  <a href="https://www.notion.so/Battle-Rogue-PVP-UE5-8aad1e946e554a60a1ea0ccf8a35b7dd?source=copy_link"><img src="https://img.shields.io/badge/Deep_Dive-Notion-000000?style=flat-square&logo=notion&logoColor=white"/></a>
+  <a href="https://www.notion.so/Battle-Rogue-PVP-UE5-8aad1e946e554a60a1ea0ccf8a35b7dd?source=copy_link"><img src="https://img.shields.io/badge/회고-Notion-000000?style=flat-square&logo=notion&logoColor=white"/></a>
 </p>
 
-<p align="center">
-  <img src="assets/fighting-game-demo.gif" alt="Gameplay" width="48%">
-  <img src="assets/anim-montage-process.gif" alt="Animation montage" width="48%">
+<p>
+  <img src="assets/fighting-game-demo.gif" alt="게임 플레이" width="48%">
+  <img src="assets/anim-montage-process.gif" alt="애님 몽타주 작업" width="48%">
 </p>
 
----
+<br/>
 
-## 🎯 Why this project
+## 1. 무엇을 해보고 싶었나
 
-대전 격투 장르는 **틱 단위 정확성** 과 **공정한 네트워크 동기화** 가 동시에 요구되는, 게임 개발에서 가장 까다로운 분야 중 하나입니다. 이 프로젝트의 목적은 단순한 미니 게임이 아니라 — **데디케이티드 서버 + 클라이언트 분리 빌드 + 애님 몽타주 기반 콤보 시스템** 까지, 상용 멀티플레이 격투 게임의 핵심 빌딩 블록을 직접 구현하며 학습하는 것입니다.
+격투 게임은 판정이 한 프레임 차이로 갈립니다. 그걸 두 대의 클라이언트가 각자 계산하면 서로 다른 결과가 나옵니다.
+그래서 판정을 서버 한 곳에서만 하도록 만드는 게 이 프로젝트의 목표였습니다.
 
----
+혼자 하는 게임을 만드는 것과 서버를 따로 띄워야 하는 게임을 만드는 건 완전히 다른 일이라는 걸 해보고 알았습니다.
 
-## ✨ Key Features
+<br/>
 
-- ⚔️ **1:1 온라인 PvP** — 두 클라이언트가 동시에 데디케이티드 서버에 접속해 실시간 매치
-- 🖧 **Dedicated Server 아키텍처** — 권위 있는 서버 시뮬레이션, 클라이언트는 입력 + 보간만
-- 🎬 **Anim Montage 기반 콤보** — 공격/피격/리액션을 몽타주로 합성, 캔슬링 윈도우 처리
-- 📦 **Client / Server 분리 패키징** — `Client/` (배포용 .exe), `Server/` (`ServerStart.bat`) 로 분리 빌드
-- 🧩 **Blueprint + C++ 하이브리드** — 핵심 로직은 C++ (`Source/`), 게임플레이 튜닝은 Blueprint (`Content/`)
+## 2. 무엇으로 만들었나
 
----
+**게임 로직은 전부 Blueprint 입니다.** C++ 는 모듈 스텁과 빌드 타깃 설정만 들어 있습니다.
 
-## 🏗 Networking Architecture
+`BattleRogue/Source/` 에 있는 것
+
+| 파일 | 내용 |
+|---|---|
+| `BattleRogue.cpp` / `.h` | 엔진이 만들어 준 모듈 진입점. 6줄짜리 스텁입니다 |
+| `BattleRogue.Build.cs` | 의존 모듈 지정 (`EnhancedInput`, `UMG`, `Slate`, `SlateCore` 추가) |
+| `BattleRogue.Target.cs` | 게임 타깃 |
+| `BattleRogueEditor.Target.cs` | 에디터 타깃 |
+| `BattleRogueServer.Target.cs` | **서버 타깃.** `Type = TargetType.Server` |
+
+C++ 로 게임플레이를 짠 건 아니고, 서버 전용 빌드가 나오게 타깃을 하나 더 만든 게 여기서 한 일입니다.
+이걸 안 만들면 데디케이티드 서버 실행 파일이 안 나옵니다.
+
+<br/>
+
+## 3. 서버 구조
 
 ```
-   ┌─────────────────────┐         ┌─────────────────────┐
-   │   Client A          │         │   Client B          │
-   │  (BattleRogue.exe)  │         │  (BattleRogue.exe)  │
-   │  - input → server   │         │  - input → server   │
-   │  - render world     │         │  - render world     │
-   └──────────┬──────────┘         └──────────┬──────────┘
+   ┌──────────────────────┐        ┌──────────────────────┐
+   │   Client A           │        │   Client B           │
+   │   BattleRogue.exe    │        │   BattleRogue.exe    │
+   │   입력 전송 + 렌더링   │        │   입력 전송 + 렌더링   │
+   └──────────┬───────────┘        └──────────┬───────────┘
               │                               │
-              │       Replicated state        │
-              │  (RPC / Property replication) │
+              │      RPC / 프로퍼티 복제        │
               └───────────────┬───────────────┘
                               ▼
-            ┌──────────────────────────────────┐
-            │   Dedicated Server               │
-            │   (ServerStart.bat)              │
-            │   - authoritative simulation     │
-            │   - hit / damage validation      │
-            │   - match flow                   │
-            └──────────────────────────────────┘
+              ┌───────────────────────────────┐
+              │   Dedicated Server            │
+              │   BattleRogueServer.exe       │
+              │   피격 판정과 데미지 계산        │
+              │   매치 진행                    │
+              └───────────────────────────────┘
 ```
 
-서버가 모든 판정의 권위를 가지며, 클라이언트는 입력 송신과 보간된 시각적 표현만 담당 — 치트 저항성과 결정성을 동시에 확보.
+클라이언트는 입력을 보내고 받은 상태를 그립니다. 맞았는지 아닌지는 서버만 정합니다.
 
----
+<br/>
 
-## 🛠 Tech Stack
+## 4. 콘텐츠 구성
 
-| Layer | Tool | Role |
+`BattleRogue/Content/` 에 uasset 2,493개가 들어 있습니다. 출처를 나눠 보면 이렇습니다.
+
+| 폴더 | 파일 수 | 무엇 |
 |---|---|---|
-| Engine | **Unreal Engine 5** | rendering, physics, networking |
-| Logic (low-level) | **C++** (`BattleRogue/Source/`) | gameplay framework, replication |
-| Logic (high-level) | **Blueprints** (`BattleRogue/Content/`) | combat tuning, UI, sequences |
-| Networking | UE5 Replication + Dedicated Server | client/server split |
-| Animation | Anim Montage | combo system |
-| Build | Visual Studio + UnrealBuildTool | `.sln` from `.uproject` |
+| `Fap/FXVarietyPack` | 1,690 | 이펙트 에셋 팩 (외부) |
+| `StarterContent` | 267 | 엔진 기본 제공 |
+| `__ExternalActors__` | 252 | UE5 월드 파티션이 자동 생성 |
+| `Characters` | 145 | 캐릭터 메시와 머티리얼 |
+| `Blueprints` | 61 | 직접 만든 블루프린트 |
+| `Sounds` | 46 | 사운드 |
+| `Material`, `Maps`, `Input`, `Video` | 31 | 머티리얼, 맵, 입력 매핑 |
 
----
+직접 만든 것은 `Blueprints/` 61개와 맵, 그리고 발판 기믹입니다.
+`상하발판`, `좌우발판`, `상하좌우발판` 세 개를 만들어서 스테이지에 배치했습니다.
 
-## 📦 Build & Run
+캐릭터는 XBot 을 쓰고 애니메이션 몽타주를 붙였습니다.
+`AM_Punching_LR_Anim`, `AM_Martelo_2_binddummy_Anim`, `AM_Reaction_binddummy_Anim`,
+`AM_Dying_Getting_Up_binddummy_Anim` 같은 식으로 공격, 피격, 다운, 기상을 몽타주로 나눴습니다.
 
-### 에디터에서 실행 (개발)
+이펙트와 스타터 콘텐츠는 외부 자산입니다. 전체 2,493개 중 직접 만든 비중은 크지 않습니다.
 
-1. `BattleRogue.uproject` 우클릭 → **Generate Visual Studio project files**
-2. 생성된 `.sln` 을 Visual Studio 에서 열고 빌드
-3. UE5 에디터에서 `BattleRogue.uproject` 열기 → **Play** ▶
+<br/>
 
-### 패키징 빌드 실행 (멀티플레이 시연)
+## 5. 저장소가 큰 이유
 
-```bat
-:: 1) 서버 실행
-cd Server\
-ServerStart.bat
+이 저장소는 크기가 상당합니다. 이유가 두 가지입니다.
 
-:: 2) 클라이언트 두 개를 따로 실행 (같은 머신/다른 머신)
-cd Client\
-BattleRogue.exe
-```
+1. `Content/` 의 uasset 을 Git LFS 로 올렸습니다. GitHub API 가 보여주는 저장소 크기에는 LFS 가 안 잡힙니다
+2. 패키징 결과물을 같이 커밋했습니다. `Client/Windows/` 와 `Server/WindowsServer/` 에 실행 파일과 pak, dll 이 들어 있습니다
 
----
-
-## 📂 Project Layout
+빌드 없이 바로 실행해 볼 수 있게 하려고 넣었는데, 다시 한다면 릴리스 자산으로 올리고 저장소에서는 뺄 것 같습니다.
+크래시 리포터 설정 파일 같은 것도 같이 딸려 들어갔습니다.
 
 ```
 .
-├── BattleRogue/              # Unreal 프로젝트 루트
+├── BattleRogue/              언리얼 프로젝트
 │   ├── BattleRogue.uproject
-│   ├── Content/              # Blueprints, maps, materials, anim assets
-│   └── Source/               # C++ gameplay code
-├── Client/                   # 패키징된 클라이언트 빌드
-│   └── BattleRogue.exe
-├── Server/                   # 패키징된 서버 빌드
-│   └── ServerStart.bat
-├── assets/                   # README 데모 GIF
-└── README.md
+│   ├── Config/               엔진, 게임, 입력 설정 ini
+│   ├── Content/              uasset 2,493개 (LFS)
+│   └── Source/               모듈 스텁 + 타깃 4개
+├── Client/Windows/           패키징된 클라이언트
+├── Server/WindowsServer/     패키징된 서버
+└── assets/                   README 데모 GIF 2개
 ```
 
----
+<br/>
 
-## 📚 Deep Dive
+## 6. 실행
 
-콤보 캔슬 윈도우 설계, 서버 권위 판정, 패키징 분리 시 빠진 자산 추적 등 — 격투 게임 만들면서 부딪힌 실전 이슈는 Notion 에 정리되어 있습니다.
+**에디터에서**
 
-➡ [**Battle Rogue — UE5 PvP 회고**](https://www.notion.so/Battle-Rogue-PVP-UE5-8aad1e946e554a60a1ea0ccf8a35b7dd?source=copy_link)
+1. `BattleRogue.uproject` 우클릭하고 Generate Visual Studio project files
+2. 생성된 sln 을 Visual Studio 에서 빌드
+3. UE5 에디터에서 `BattleRogue.uproject` 열고 Play
 
----
+**패키징 빌드로 1대1 붙여 보기**
 
-## 📄 License
+```bat
+cd Server\WindowsServer\BattleRogue\Binaries\Win64
+BattleRogueServer.exe
+```
 
-MIT — see [LICENSE](LICENSE).
+```bat
+cd Client\Windows
+BattleRogue.exe
+```
 
----
+클라이언트를 두 개 띄우면 됩니다. 같은 PC 에서도 되고 다른 PC 에서도 됩니다.
 
-<p align="center">
-  Built by <a href="https://github.com/jihun-moon">@jihun-moon</a> · <a href="mailto:jihun0948@naver.com">jihun0948@naver.com</a>
-</p>
+Git LFS 가 필요합니다. `git lfs install` 을 먼저 하고 클론해야 uasset 이 제대로 받아집니다.
+
+<br/>
+
+## 7. 막혔던 것
+
+- 에디터에서는 되는데 패키징하면 자산이 빠지는 일이 자주 있었습니다. 참조가 블루프린트 안에만 있으면 쿠킹에서 제외됩니다
+- 서버 타깃을 만들기 전까지는 데디케이티드 서버 실행 파일이 안 나온다는 걸 몰라서 한참 헤맸습니다
+- 몽타주 캔슬 구간을 잡는 게 어려웠습니다. 너무 넓으면 무한 콤보가 되고 좁으면 조작이 답답해집니다
+
+자세한 건 [Notion 회고](https://www.notion.so/Battle-Rogue-PVP-UE5-8aad1e946e554a60a1ea0ccf8a35b7dd?source=copy_link) 에 적어 뒀습니다.
+
+<br/>
+
+MIT License
