@@ -97,13 +97,14 @@ C++ 로 게임플레이를 짠 건 아니고, 서버 전용 빌드가 나오게 
 
 ## 5. 저장소가 큰 이유
 
-이 저장소는 크기가 상당합니다. 이유가 두 가지입니다.
+언리얼 프로젝트라 원래 큽니다. `Content/` 의 uasset 2,463개를 Git LFS 로 올렸고,
+GitHub 이 보여주는 저장소 크기에는 LFS 가 안 잡히므로 실제 클론은 그보다 큽니다.
 
-1. `Content/` 의 uasset 을 Git LFS 로 올렸습니다. GitHub API 가 보여주는 저장소 크기에는 LFS 가 안 잡힙니다
-2. 패키징 결과물을 같이 커밋했습니다. `Client/Windows/` 와 `Server/WindowsServer/` 에 실행 파일과 pak, dll 이 들어 있습니다
-
-빌드 없이 바로 실행해 볼 수 있게 하려고 넣었는데, 다시 한다면 릴리스 자산으로 올리고 저장소에서는 뺄 것 같습니다.
-크래시 리포터 설정 파일 같은 것도 같이 딸려 들어갔습니다.
+**2026-09-09 에 패키징 결과물을 이력에서 뺐습니다.** `Client/Windows/` 와
+`Server/WindowsServer/` 에 실행 파일과 pak, dll 이 들어 있었습니다. 빌드 없이 바로
+실행해 보게 하려고 넣은 건데, 빌드 산출물은 소스가 아니라서 저장소에 있을 자리가
+아니었습니다. 크래시 리포터가 남긴 설정 파일까지 같이 딸려 들어가 있었습니다.
+`git filter-repo` 로 지웠고 커밋 50개는 그대로입니다.
 
 ```
 .
@@ -112,8 +113,6 @@ C++ 로 게임플레이를 짠 건 아니고, 서버 전용 빌드가 나오게 
 │   ├── Config/               엔진, 게임, 입력 설정 ini
 │   ├── Content/              uasset 2,493개 (LFS)
 │   └── Source/               모듈 스텁 + 타깃 4개
-├── Client/Windows/           패키징된 클라이언트
-├── Server/WindowsServer/     패키징된 서버
 └── assets/                   README 데모 GIF 2개
 ```
 
@@ -129,17 +128,20 @@ C++ 로 게임플레이를 짠 건 아니고, 서버 전용 빌드가 나오게 
 
 **패키징 빌드로 1대1 붙여 보기**
 
+에디터에서 Platforms > Windows > Package Project 로 클라이언트와 서버를 각각 뽑습니다.
+서버는 `BattleRogueServer` 타깃으로 뽑아야 데디케이티드 서버 실행 파일이 나옵니다.
+
 ```bat
-cd Server\WindowsServer\BattleRogue\Binaries\Win64
 BattleRogueServer.exe
 ```
 
 ```bat
-cd Client\Windows
 BattleRogue.exe
 ```
 
-클라이언트를 두 개 띄우면 됩니다. 같은 PC 에서도 되고 다른 PC 에서도 됩니다.
+서버를 먼저 띄우고 클라이언트를 두 개 붙입니다. 같은 PC 에서도 되고 다른 PC 에서도 됩니다.
+
+빌드해 볼 환경이 없으시면 말씀해 주십시오. 패키징본을 릴리스로 올리겠습니다.
 
 Git LFS 가 필요합니다. `git lfs install` 을 먼저 하고 클론해야 uasset 이 제대로 받아집니다.
 
