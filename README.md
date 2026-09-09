@@ -14,6 +14,8 @@
 <p>
   <img src="assets/fighting-game-demo.gif" alt="게임 플레이" width="48%">
   <img src="assets/anim-montage-process.gif" alt="애님 몽타주 작업" width="48%">
+
+  <sub>원본 화질 mp4 · <a href="assets/fighting-game-demo.mp4">게임 플레이</a> · <a href="assets/anim-montage-process.mp4">애님 몽타주 작업</a></sub>
 </p>
 
 <br/>
@@ -113,7 +115,7 @@ GitHub 이 보여주는 저장소 크기에는 LFS 가 안 잡히므로 실제 �
 │   ├── Config/               엔진, 게임, 입력 설정 ini
 │   ├── Content/              uasset 2,493개 (LFS)
 │   └── Source/               모듈 스텁 + 타깃 4개
-└── assets/                   README 데모 GIF 2개
+└── assets/                   README 데모 GIF 2개 + 원본 mp4 2개
 ```
 
 <br/>
