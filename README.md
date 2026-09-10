@@ -1,6 +1,7 @@
 # Battle Rogue
 
 언리얼 엔진 5로 만든 1대1 온라인 대전 게임입니다. 데디케이티드 서버를 따로 빌드해서 붙였습니다.
+2인 팀 프로젝트였고(2025-04 ~ 06), 저는 UMG 메뉴·로비·설정·결과 화면과 애님 블루프린트, 두 화면에 동시에 뜨는 "Ready, Fight!" 시퀀스를 맡았습니다.
 
 <p>
   <img src="https://img.shields.io/badge/Unreal_Engine_5-313131?style=flat-square&logo=unrealengine&logoColor=white"/>
@@ -78,7 +79,7 @@ C++ 로 게임플레이를 짠 건 아니고, 서버 전용 빌드가 나오게 
 
 | 폴더 | 파일 수 | 무엇 |
 |---|---|---|
-| `Fap/FXVarietyPack` | 1,690 | 이펙트 에셋 팩 (외부) |
+| `Fap/` 아래 폴더 7개 | 1,690 | 이펙트·사막·바위 에셋 팩 (외부) |
 | `StarterContent` | 267 | 엔진 기본 제공 |
 | `__ExternalActors__` | 252 | UE5 월드 파티션이 자동 생성 |
 | `Characters` | 145 | 캐릭터 메시와 머티리얼 |
@@ -87,7 +88,7 @@ C++ 로 게임플레이를 짠 건 아니고, 서버 전용 빌드가 나오게 
 | `Material`, `Maps`, `Input`, `Video` | 31 | 머티리얼, 맵, 입력 매핑 |
 
 직접 만든 것은 `Blueprints/` 61개와 맵, 그리고 발판 기믹입니다.
-`상하발판`, `좌우발판`, `상하좌우발판` 세 개를 만들어서 스테이지에 배치했습니다.
+`상하발판`, `좌우발판`, `상하좌우발판` 세 개를 만들었습니다. 두 화면에서 발판 위치가 어긋나 보여서 본 맵에는 못 넣고 튜토리얼 맵에만 뒀습니다.
 
 캐릭터는 XBot 을 쓰고 애니메이션 몽타주를 붙였습니다.
 `AM_Punching_LR_Anim`, `AM_Martelo_2_binddummy_Anim`, `AM_Reaction_binddummy_Anim`,
@@ -99,14 +100,14 @@ C++ 로 게임플레이를 짠 건 아니고, 서버 전용 빌드가 나오게 
 
 ## 5. 저장소가 큰 이유
 
-언리얼 프로젝트라 원래 큽니다. `Content/` 의 uasset 2,463개를 Git LFS 로 올렸고,
+언리얼 프로젝트라 원래 큽니다. `Content/` 의 uasset 2,493개를 Git LFS 로 올렸고,
 GitHub 이 보여주는 저장소 크기에는 LFS 가 안 잡히므로 실제 클론은 그보다 큽니다.
 
 **2026-09-09 에 패키징 결과물을 이력에서 뺐습니다.** `Client/Windows/` 와
 `Server/WindowsServer/` 에 실행 파일과 pak, dll 이 들어 있었습니다. 빌드 없이 바로
 실행해 보게 하려고 넣은 건데, 빌드 산출물은 소스가 아니라서 저장소에 있을 자리가
 아니었습니다. 크래시 리포터가 남긴 설정 파일까지 같이 딸려 들어가 있었습니다.
-`git filter-repo` 로 지웠고 커밋 50개는 그대로입니다.
+`git filter-repo` 로 지웠습니다.
 
 ```
 .
@@ -114,7 +115,7 @@ GitHub 이 보여주는 저장소 크기에는 LFS 가 안 잡히므로 실제 �
 │   ├── BattleRogue.uproject
 │   ├── Config/               엔진, 게임, 입력 설정 ini
 │   ├── Content/              uasset 2,493개 (LFS)
-│   └── Source/               모듈 스텁 + 타깃 4개
+│   └── Source/               모듈 스텁 + 타깃 3개
 └── assets/                   README 데모 GIF 2개 + 원본 mp4 2개
 ```
 
